@@ -54,9 +54,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(100, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 18);
+            this.label2.Size = new System.Drawing.Size(125, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "入库商品名称：";
+            this.label2.Text = "商 家 编 号：";
             // 
             // label3
             // 
@@ -105,6 +105,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
