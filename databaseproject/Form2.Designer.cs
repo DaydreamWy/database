@@ -40,18 +40,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label1.Location = new System.Drawing.Point(196, 34);
+            this.label1.Font = new System.Drawing.Font("宋体", 12F);
+            this.label1.Location = new System.Drawing.Point(174, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 24);
+            this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "WQL小店";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(79, 106);
+            this.button1.Location = new System.Drawing.Point(70, 88);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 45);
+            this.button1.Size = new System.Drawing.Size(107, 37);
             this.button1.TabIndex = 1;
             this.button1.Text = "商品查询";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,9 +60,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(277, 106);
+            this.button2.Location = new System.Drawing.Point(246, 88);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 45);
+            this.button2.Size = new System.Drawing.Size(107, 37);
             this.button2.TabIndex = 2;
             this.button2.Text = "订单查询";
             this.button2.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(79, 190);
+            this.button3.Location = new System.Drawing.Point(70, 158);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 45);
+            this.button3.Size = new System.Drawing.Size(107, 37);
             this.button3.TabIndex = 4;
             this.button3.Text = "商品入库";
             this.button3.UseVisualStyleBackColor = true;
@@ -79,9 +82,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(79, 281);
+            this.button4.Location = new System.Drawing.Point(70, 234);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 45);
+            this.button4.Size = new System.Drawing.Size(107, 37);
             this.button4.TabIndex = 3;
             this.button4.Text = "用户管理";
             this.button4.UseVisualStyleBackColor = true;
@@ -89,9 +93,10 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(277, 190);
+            this.button6.Location = new System.Drawing.Point(246, 158);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 45);
+            this.button6.Size = new System.Drawing.Size(107, 37);
             this.button6.TabIndex = 5;
             this.button6.Text = "商品上/下架";
             this.button6.UseVisualStyleBackColor = true;
@@ -99,9 +104,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(277, 281);
+            this.button5.Location = new System.Drawing.Point(246, 234);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 45);
+            this.button5.Size = new System.Drawing.Size(107, 37);
             this.button5.TabIndex = 6;
             this.button5.Text = "退出";
             this.button5.UseVisualStyleBackColor = true;
@@ -109,10 +115,10 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(478, 444);
+            this.ClientSize = new System.Drawing.Size(425, 370);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button3);
@@ -120,8 +126,10 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

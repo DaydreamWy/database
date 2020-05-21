@@ -16,3 +16,24 @@ C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databasepr
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\bin\Debug\databaseproject.exe.config
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.exe.config
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.exe
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.pdb
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csprojAssemblyReference.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csproj.CoreCompileInputs.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.exe
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.pdb
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
