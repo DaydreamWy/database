@@ -33,8 +33,8 @@
             this.PnameText2 = new System.Windows.Forms.TextBox();
             this.PSearchBtn = new System.Windows.Forms.Button();
             this.PnameLabel2 = new System.Windows.Forms.Label();
-            this.dataProductList = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataProductList)).BeginInit();
+            this.dataProductList2 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataProductList2)).BeginInit();
             this.SuspendLayout();
             // 
             // CategoryText2
@@ -81,14 +81,14 @@
             this.PnameLabel2.TabIndex = 8;
             this.PnameLabel2.Text = "商品名称";
             // 
-            // dataProductList
+            // dataProductList2
             // 
-            this.dataProductList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataProductList.Location = new System.Drawing.Point(28, 73);
-            this.dataProductList.Name = "dataProductList";
-            this.dataProductList.RowTemplate.Height = 27;
-            this.dataProductList.Size = new System.Drawing.Size(536, 300);
-            this.dataProductList.TabIndex = 7;
+            this.dataProductList2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataProductList2.Location = new System.Drawing.Point(28, 73);
+            this.dataProductList2.Name = "dataProductList2";
+            this.dataProductList2.RowTemplate.Height = 27;
+            this.dataProductList2.Size = new System.Drawing.Size(536, 300);
+            this.dataProductList2.TabIndex = 7;
             // 
             // UserWindowPSearch
             // 
@@ -99,11 +99,11 @@
             this.Controls.Add(this.PnameText2);
             this.Controls.Add(this.PSearchBtn);
             this.Controls.Add(this.PnameLabel2);
-            this.Controls.Add(this.dataProductList);
+            this.Controls.Add(this.dataProductList2);
             this.Name = "UserWindowPSearch";
             this.Size = new System.Drawing.Size(600, 400);
             this.Load += new System.EventHandler(this.UserWindowPSearch_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataProductList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataProductList2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,6 +116,6 @@
         private System.Windows.Forms.TextBox PnameText2;
         private System.Windows.Forms.Button PSearchBtn;
         private System.Windows.Forms.Label PnameLabel2;
-        private System.Windows.Forms.DataGridView dataProductList;
+        private System.Windows.Forms.DataGridView dataProductList2;
     }
 }

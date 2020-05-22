@@ -42,9 +42,9 @@
             // 
             // UserGroupBox
             // 
-            this.UserGroupBox.Location = new System.Drawing.Point(254, 22);
+            this.UserGroupBox.Location = new System.Drawing.Point(268, 22);
             this.UserGroupBox.Name = "UserGroupBox";
-            this.UserGroupBox.Size = new System.Drawing.Size(600, 400);
+            this.UserGroupBox.Size = new System.Drawing.Size(600, 520);
             this.UserGroupBox.TabIndex = 7;
             this.UserGroupBox.TabStop = false;
             this.UserGroupBox.Text = "groupContent";
@@ -122,7 +122,7 @@
             this.menu.Controls.Add(this.label1);
             this.menu.Location = new System.Drawing.Point(24, 22);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(200, 400);
+            this.menu.Size = new System.Drawing.Size(200, 520);
             this.menu.TabIndex = 12;
             this.menu.TabStop = false;
             this.menu.Text = "groupMenu";
@@ -132,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(895, 460);
+            this.ClientSize = new System.Drawing.Size(982, 571);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.UserGroupBox);
             this.Location = new System.Drawing.Point(100, 200);

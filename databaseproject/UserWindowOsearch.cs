@@ -28,8 +28,8 @@ namespace databaseproject
             DataSet ds;
             string start_T = textTimeStart.Text;
             string end_T = textTimeEnd.Text;
-            string sqltmp = "select p_name,o_num,o_Money,o_buyTime from AllOrder,Products where u_id = '" +
-                Form1.LoginUserId + "' and AllOrder.p_id = Products.p_id ";
+            string sqltmp = "select p_id,o_num,o_Money,o_buyTime from AllOrder where u_id = '" +
+                Form1.LoginUserId + "'";
 
             if(start_T!= null && start_T!= "")
             {

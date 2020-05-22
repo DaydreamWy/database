@@ -37,3 +37,8 @@ D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject
 D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.pdb
 D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
 D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane1.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane2.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane3.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane4.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane5.resources

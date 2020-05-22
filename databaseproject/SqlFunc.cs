@@ -19,7 +19,7 @@ namespace databaseproject
             try
             {
                 con.Open();
-                sda.Fill(ds, "students");
+                sda.Fill(ds, "results1");
                 return ds;
             }
             catch (SqlException e)

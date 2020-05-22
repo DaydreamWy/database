@@ -16,7 +16,9 @@ namespace databaseproject
     {
         static public string LoginUserId;
         static public string LoginUsername;    //获取输入的用户名
+        static public int LoginAuth;//1代表商家，2代表用户，0无意义
         private string password;    //获取输入的密码
+
 
         public Form1()
         {
@@ -28,6 +30,7 @@ namespace databaseproject
         {
             textUserName.Text = "";
             textUserPwd.Text = "";
+            LoginAuth = 0;//0无意义
             LoginUserId = null;
             LoginUsername = null;
             password = null;
@@ -49,7 +52,8 @@ namespace databaseproject
                 if (dr.Read())//用dr的read函数，每执行一次，返回一个包含下一行数据的集合dr，在执行read函数之前，dr并不是集合
                 {
                     Form2 childrenForm = new Form2();
-                    LoginUserId = dr["u_id"].ToString();
+                    LoginUserId = dr["s_id"].ToString();
+                    LoginAuth = 1;
                     childrenForm.Owner = this;
                     childrenForm.Show();
                     con.Close();//用完后关闭连接，以免影响其他程序访问
@@ -71,6 +75,7 @@ namespace databaseproject
                     Form3 childrenForm = new Form3();
                     childrenForm.Owner = this;
                     LoginUserId = dr["u_id"].ToString();
+                    LoginAuth = 2;
                     childrenForm.Show();
                     con.Close();//用完后关闭连接，以免影响其他程序访问
                 }
@@ -91,11 +96,7 @@ namespace databaseproject
             this.Close();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void Form1_Load(object sender, EventArgs e)
         {
 

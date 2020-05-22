@@ -20,7 +20,7 @@ namespace databaseproject
         {
             string username = Form1.LoginUsername;
 
-            this.dataProductList.DataSource = SqlFunc.Query("select * from Products").Tables["Products"];
+            this.dataProductList2.DataSource = SqlFunc.Query("select * from Products").Tables["Products"];
 
         }
 
@@ -38,7 +38,7 @@ namespace databaseproject
                 ds = SqlFunc.Query("select * from Products");
             }
             
-            this.dataProductList.DataSource = ds.Tables[0];
+            this.dataProductList2.DataSource = ds.Tables[0];
             MessageBox.Show("get " + ds.Tables[0].Rows.Count.ToString() + " records!");
         }
     }
