@@ -23,7 +23,7 @@ namespace databaseproject
             string sql = string.Format(
                 "select Shelf.p_id, p_name " +
                 "from Shelf,Product where Shelf.p_id = Product.p_id " +
-                "and s_id = {0} and ifOnshelf = {1}", Form1.LoginUserId, );
+                "and s_id = {0} and ifOnshelf = 0", Form1.LoginUserId);
 
             DataSet ds = SqlFunc.Query(sql);
             if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
@@ -47,7 +47,7 @@ namespace databaseproject
         //然后ListView控件读取当前选择行的代码时可以这样
 
        //读取ListView的某行的信息       
-       private void listView_EH_Click(object sender, EventArgs e)
+       /*private void listView_EH_Click(object sender, EventArgs e)
         {
             if (this.listView_EH.Items.Count <= 0) return;
             if (this.listView_EH.SelectedItems.Count <= 0) return;
@@ -58,7 +58,7 @@ namespace databaseproject
             this.num_sort.Text = dr["sort"].ToString();
             this.txt_questiontypename.Text = this.listView_EH.SelectedItems[0].SubItems[1].Text.ToString();
             this.com_answertype.Text = dr["AnswerTypeName"].ToString();
-        }
+        }*/
 
 
         private void FuncPane3_Load(object sender, EventArgs e)
