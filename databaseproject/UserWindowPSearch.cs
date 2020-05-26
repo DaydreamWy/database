@@ -19,8 +19,8 @@ namespace databaseproject
         private void UserWindowPSearch_Load(object sender, EventArgs e)
         {
             string username = Form1.LoginUsername;
-
-            this.dataProductList2.DataSource = SqlFunc.Query("select * from Products").Tables["Products"];
+            DataSet ds = SqlFunc.Query("select * from Products");
+            this.dataProductList2.DataSource = ds.Tables[0];
 
         }
 

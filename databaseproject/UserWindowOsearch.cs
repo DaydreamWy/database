@@ -21,6 +21,11 @@ namespace databaseproject
         private void UserWindowOsearch_Load(object sender, EventArgs e)
         {
             //debug.Text = Form1.LoginUserId;
+            string sqltmp = "select p_id,o_num,o_Money,o_buyTime from AllOrder where u_id = '" +
+                Form1.LoginUserId + "'";
+            DataSet ds = SqlFunc.Query(sqltmp);
+            this.dataOrderList.DataSource = ds.Tables[0];
+
         }
 
         private void OSearchBtn_Click(object sender, EventArgs e)

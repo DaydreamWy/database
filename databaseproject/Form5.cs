@@ -124,8 +124,10 @@ namespace databaseproject
             //MessageBox.Show(test, "test the paths");
 
             //--------1.更新数据库Products
-            string sql1 = string.Format("insert into Products(p_name, category, price, p_number, p_length, p_width, p_height)" +
-                " values('{0}','{1}','{2}',{3},{4},{5},{6}) Select SCOPE_IDENTITY();", p_name, category, price, p_number, p_length, p_width, p_height);//" + p_length + ","+p_width + "," + p_height + "," + p_number + "//price + "," + 
+            string sql1 = string.Format(
+                "insert into Products(p_name, category, price, p_number, p_length, p_width, p_height) " +
+                "values('{0}','{1}','{2}',{3},{4},{5},{6}) Select SCOPE_IDENTITY();", 
+                p_name, category, price, p_number, p_length, p_width, p_height);
 
             p_id = SqlFunc.ExecuteSql(sql1,1);
             
@@ -133,8 +135,8 @@ namespace databaseproject
             bool flag2 = true;
             for (int i = 0; i < picNum; i++)
             {
-                string tmp = string.Format("insert into PP(p_id,pic_name) values({0},'{1}')", p_id, tempFileNames[i]);
-                string sql2 = tmp;//"insert into PP(p_id) values(" + p_id + ")";// pid,tempFileNames[i]
+                string sql2 = string.Format("insert into PP(p_id,pic_name) values({0},'{1}')", 
+                    p_id, tempFileNames[i]);
                 if (SqlFunc.ExecuteSql(sql2) <= 0)
                 {
                     flag2 = false;
