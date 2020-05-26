@@ -16,14 +16,14 @@ namespace databaseproject
             InitializeComponent();
 
         }
-        //func_id——0：未上架， 1：已上架
-        void InitializeListShelf(int func_id)
+
+        void InitializeListShelf()
         {
             this.listOffShelf.Items.Clear();
             string sql = string.Format(
                 "select Shelf.p_id, p_name " +
                 "from Shelf,Product where Shelf.p_id = Product.p_id " +
-                "and s_id = {0} and ifOnshelf = 0", Form1.LoginUserId);
+                "and s_id = {0} and ifOnshelf = {1}", Form1.LoginUserId, );
 
             DataSet ds = SqlFunc.Query(sql);
             if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
@@ -41,10 +41,7 @@ namespace databaseproject
                 }
             }
         }
-        void InitializeListOnShelf()
-        {
-
-        }
+        
 
        
         //然后ListView控件读取当前选择行的代码时可以这样
