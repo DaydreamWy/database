@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace databaseproject
 {
-    public partial class FuncPane1 : UserControl
+    public partial class PaneProductQuery : UserControl
     {
-        public FuncPane1()
+        public PaneProductQuery()
         {
             InitializeComponent();
         } 

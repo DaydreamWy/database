@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace databaseproject
 {
-    public partial class FuncPane5 : UserControl
+    public partial class PaneShelf : UserControl
     {
-        public FuncPane5()
+        public PaneShelf()
         {
             InitializeComponent();
+        }
+
+        private void FuncPane3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

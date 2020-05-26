@@ -109,35 +109,41 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncPane1.cs">
+    <Compile Include="FormOnShelf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOnShelf.Designer.cs">
+      <DependentUpon>FormOnShelf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneProductQuery.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FuncPane1.Designer.cs">
-      <DependentUpon>FuncPane1.cs</DependentUpon>
+    <Compile Include="PaneProductQuery.Designer.cs">
+      <DependentUpon>PaneProductQuery.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncPane2.cs">
+    <Compile Include="PaneProduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FuncPane2.Designer.cs">
-      <DependentUpon>FuncPane2.cs</DependentUpon>
+    <Compile Include="PaneProduct.Designer.cs">
+      <DependentUpon>PaneProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncPane3.cs">
+    <Compile Include="PaneShelf.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FuncPane3.Designer.cs">
-      <DependentUpon>FuncPane3.cs</DependentUpon>
+    <Compile Include="PaneShelf.Designer.cs">
+      <DependentUpon>PaneShelf.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncPane4.cs">
+    <Compile Include="PaneOrderQuery.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FuncPane4.Designer.cs">
-      <DependentUpon>FuncPane4.cs</DependentUpon>
+    <Compile Include="PaneOrderQuery.Designer.cs">
+      <DependentUpon>PaneOrderQuery.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncPane5.cs">
+    <Compile Include="PaneUserManage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FuncPane5.Designer.cs">
-      <DependentUpon>FuncPane5.cs</DependentUpon>
+    <Compile Include="PaneUserManage.Designer.cs">
+      <DependentUpon>PaneUserManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,20 +190,23 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncPane1.resx">
-      <DependentUpon>FuncPane1.cs</DependentUpon>
+    <EmbeddedResource Include="FormOnShelf.resx">
+      <DependentUpon>FormOnShelf.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncPane2.resx">
-      <DependentUpon>FuncPane2.cs</DependentUpon>
+    <EmbeddedResource Include="PaneProductQuery.resx">
+      <DependentUpon>PaneProductQuery.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncPane3.resx">
-      <DependentUpon>FuncPane3.cs</DependentUpon>
+    <EmbeddedResource Include="PaneProduct.resx">
+      <DependentUpon>PaneProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncPane4.resx">
-      <DependentUpon>FuncPane4.cs</DependentUpon>
+    <EmbeddedResource Include="PaneShelf.resx">
+      <DependentUpon>PaneShelf.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FuncPane5.resx">
-      <DependentUpon>FuncPane5.cs</DependentUpon>
+    <EmbeddedResource Include="PaneOrderQuery.resx">
+      <DependentUpon>PaneOrderQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneUserManage.resx">
+      <DependentUpon>PaneUserManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -12,23 +12,23 @@ namespace databaseproject
     public partial class Form2 : Form
     {
 
-        public FuncPane1 ProductQueryPane;//查询任意的商品
-        public FuncPane2 ProductPane;//商品入库
-        public FuncPane3 ShelfPane;//商品上下架
-        public FuncPane4 OrderQueryPane;//查询商家的订单
-        public FuncPane5 UserManagePane;//用户管理
+        public PaneProductQuery ProductQueryPane;//查询任意的商品
+        public PaneProduct ProductPane;//商品入库
+        public PaneShelf ShelfPane;//商品上下架
+        public PaneOrderQuery OrderQueryPane;//查询商家的订单
+        public PaneUserManage UserManagePane;//用户管理
 
         public Form2()
         {
             InitializeComponent();
 
-            ProductQueryPane = new FuncPane1();
+            ProductQueryPane = new PaneProductQuery();
 
-            ProductPane = new FuncPane2();
-            ShelfPane = new FuncPane3();
+            ProductPane = new PaneProduct();
+            ShelfPane = new PaneShelf();
 
-            OrderQueryPane = new FuncPane4();
-            UserManagePane = new FuncPane5();
+            OrderQueryPane = new PaneOrderQuery();
+            UserManagePane = new PaneUserManage();
         }
 
         private void Form2_Load(object sender, EventArgs e)

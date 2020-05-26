@@ -1,6 +1,6 @@
 ﻿namespace databaseproject
 {
-    partial class FuncPane2
+    partial class PaneProduct
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.BtnIN = new System.Windows.Forms.Button();
-            this.BtnOUT = new System.Windows.Forms.Button();
+            this.BtnNEW = new System.Windows.Forms.Button();
             this.ProductIOList = new System.Windows.Forms.DataGridView();
+            this.BtnOUT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProductIOList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,15 +45,15 @@
             this.BtnIN.UseVisualStyleBackColor = true;
             this.BtnIN.Click += new System.EventHandler(this.BtnIN_Click);
             // 
-            // BtnOUT
+            // BtnNEW
             // 
-            this.BtnOUT.Location = new System.Drawing.Point(484, 23);
-            this.BtnOUT.Name = "BtnOUT";
-            this.BtnOUT.Size = new System.Drawing.Size(138, 49);
-            this.BtnOUT.TabIndex = 2;
-            this.BtnOUT.Text = "出库";
-            this.BtnOUT.UseVisualStyleBackColor = true;
-            this.BtnOUT.Click += new System.EventHandler(this.BtnOUT_Click);
+            this.BtnNEW.Location = new System.Drawing.Point(484, 23);
+            this.BtnNEW.Name = "BtnNEW";
+            this.BtnNEW.Size = new System.Drawing.Size(138, 49);
+            this.BtnNEW.TabIndex = 2;
+            this.BtnNEW.Text = "新建";
+            this.BtnNEW.UseVisualStyleBackColor = true;
+            this.BtnNEW.Click += new System.EventHandler(this.BtnNEW_Click);
             // 
             // ProductIOList
             // 
@@ -63,12 +64,23 @@
             this.ProductIOList.Size = new System.Drawing.Size(577, 312);
             this.ProductIOList.TabIndex = 3;
             // 
+            // BtnOUT
+            // 
+            this.BtnOUT.Location = new System.Drawing.Point(265, 23);
+            this.BtnOUT.Name = "BtnOUT";
+            this.BtnOUT.Size = new System.Drawing.Size(138, 49);
+            this.BtnOUT.TabIndex = 4;
+            this.BtnOUT.Text = "出库";
+            this.BtnOUT.UseVisualStyleBackColor = true;
+            this.BtnOUT.Click += new System.EventHandler(this.BtnOUT_Click);
+            // 
             // FuncPane2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.ProductIOList);
             this.Controls.Add(this.BtnOUT);
+            this.Controls.Add(this.ProductIOList);
+            this.Controls.Add(this.BtnNEW);
             this.Controls.Add(this.BtnIN);
             this.Name = "FuncPane2";
             this.Size = new System.Drawing.Size(668, 472);
@@ -81,7 +93,8 @@
         #endregion
 
         private System.Windows.Forms.Button BtnIN;
-        private System.Windows.Forms.Button BtnOUT;
+        private System.Windows.Forms.Button BtnNEW;
         private System.Windows.Forms.DataGridView ProductIOList;
+        private System.Windows.Forms.Button BtnOUT;
     }
 }

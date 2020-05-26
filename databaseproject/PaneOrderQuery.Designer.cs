@@ -1,6 +1,6 @@
 ﻿namespace databaseproject
 {
-    partial class FuncPane4
+    partial class PaneOrderQuery
     {
         /// <summary> 
         /// 必需的设计器变量。

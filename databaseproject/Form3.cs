@@ -49,7 +49,7 @@ namespace databaseproject
 
         private void goBack(object sender, EventArgs e)
         {
-            ((Form1)this.Owner).InitializeInfo();
+            //((Form1)this.Owner).InitializeInfo();
             this.Owner.Show();
             this.Close();
         }

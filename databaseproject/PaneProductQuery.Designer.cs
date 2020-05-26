@@ -1,6 +1,6 @@
 ﻿namespace databaseproject
 {
-    partial class FuncPane1
+    partial class PaneProductQuery
     {
         /// <summary> 
         /// 必需的设计器变量。

@@ -1,6 +1,6 @@
 ﻿namespace databaseproject
 {
-    partial class FuncPane3
+    partial class PaneShelf
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -36,6 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "FuncPane3";
             this.Size = new System.Drawing.Size(668, 472);
+            this.Load += new System.EventHandler(this.FuncPane3_Load);
             this.ResumeLayout(false);
 
         }

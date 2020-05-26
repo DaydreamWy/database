@@ -55,6 +55,7 @@ namespace databaseproject
                     LoginUserId = dr["s_id"].ToString();
                     LoginAuth = 1;
                     childrenForm.Owner = this;
+                    this.Hide();
                     childrenForm.Show();
                     con.Close();//用完后关闭连接，以免影响其他程序访问
                 }
@@ -76,6 +77,7 @@ namespace databaseproject
                     childrenForm.Owner = this;
                     LoginUserId = dr["u_id"].ToString();
                     LoginAuth = 2;
+                    this.Hide();
                     childrenForm.Show();
                     con.Close();//用完后关闭连接，以免影响其他程序访问
                 }

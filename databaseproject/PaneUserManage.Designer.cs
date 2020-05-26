@@ -1,6 +1,6 @@
 ﻿namespace databaseproject
 {
-    partial class FuncPane5
+    partial class PaneUserManage
     {
         /// <summary> 
         /// 必需的设计器变量。
