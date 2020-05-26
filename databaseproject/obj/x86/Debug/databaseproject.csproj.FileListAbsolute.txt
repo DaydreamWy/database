@@ -16,21 +16,57 @@ C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databasepr
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\bin\Debug\databaseproject.exe.config
-C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.exe.config
-C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.exe
-C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.pdb
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.cache
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.csproj.CoreCompileInputs.cache
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.exe
-C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.pdb
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.exe.config
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.exe
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\bin\Debug\databaseproject.pdb
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csprojAssemblyReference.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.csproj.CoreCompileInputs.cache
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.exe
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.pdb
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane1.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane2.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane3.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane4.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FuncPane5.resources
+D:\study and work\Grade3.3\DBMS\BigWork\databaseproject\database\databaseproject\obj\x86\Debug\databaseproject.FormOnShelf.resources
+D:\database\databaseproject\bin\Debug\databaseproject.exe.config
+D:\database\databaseproject\bin\Debug\databaseproject.exe
+D:\database\databaseproject\bin\Debug\databaseproject.pdb
+D:\database\databaseproject\obj\x86\Debug\databaseproject.csprojAssemblyReference.cache
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.FormOnShelf.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.cache
+D:\database\databaseproject\obj\x86\Debug\databaseproject.csproj.CoreCompileInputs.cache
+D:\database\databaseproject\obj\x86\Debug\databaseproject.exe
+D:\database\databaseproject\obj\x86\Debug\databaseproject.pdb
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources

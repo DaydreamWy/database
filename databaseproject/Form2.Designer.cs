@@ -29,99 +29,144 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnProQ = new System.Windows.Forms.Button();
+            this.btnOrdQ = new System.Windows.Forms.Button();
+            this.btnProIN = new System.Windows.Forms.Button();
+            this.btnUsrM = new System.Windows.Forms.Button();
+            this.btnProSH = new System.Windows.Forms.Button();
+            this.btn_goBack1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.FuncPanl = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label1.Location = new System.Drawing.Point(196, 34);
+            this.label1.Font = new System.Drawing.Font("宋体", 12F);
+            this.label1.Location = new System.Drawing.Point(92, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 24);
+            this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "WQL小店";
             // 
-            // button1
+            // btnProQ
             // 
-            this.button1.Location = new System.Drawing.Point(79, 106);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 45);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "商品查询";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnProQ.Location = new System.Drawing.Point(36, 35);
+            this.btnProQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProQ.Name = "btnProQ";
+            this.btnProQ.Size = new System.Drawing.Size(107, 37);
+            this.btnProQ.TabIndex = 1;
+            this.btnProQ.Text = "商品查询";
+            this.btnProQ.UseVisualStyleBackColor = true;
+            this.btnProQ.Click += new System.EventHandler(this.btnProQ_Click);
             // 
-            // button2
+            // btnOrdQ
             // 
-            this.button2.Location = new System.Drawing.Point(277, 106);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 45);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "订单查询";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnOrdQ.Location = new System.Drawing.Point(36, 42);
+            this.btnOrdQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOrdQ.Name = "btnOrdQ";
+            this.btnOrdQ.Size = new System.Drawing.Size(107, 37);
+            this.btnOrdQ.TabIndex = 2;
+            this.btnOrdQ.Text = "订单查询";
+            this.btnOrdQ.UseVisualStyleBackColor = true;
+            this.btnOrdQ.Click += new System.EventHandler(this.btnOrdQ_Click);
             // 
-            // button3
+            // btnProIN
             // 
-            this.button3.Location = new System.Drawing.Point(79, 190);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 45);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "商品入库";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnProIN.Location = new System.Drawing.Point(36, 91);
+            this.btnProIN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProIN.Name = "btnProIN";
+            this.btnProIN.Size = new System.Drawing.Size(107, 37);
+            this.btnProIN.TabIndex = 4;
+            this.btnProIN.Text = "商品入库";
+            this.btnProIN.UseVisualStyleBackColor = true;
+            this.btnProIN.Click += new System.EventHandler(this.btnProIN_Click);
             // 
-            // button4
+            // btnUsrM
             // 
-            this.button4.Location = new System.Drawing.Point(79, 281);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 45);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "用户管理";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnUsrM.Location = new System.Drawing.Point(36, 102);
+            this.btnUsrM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUsrM.Name = "btnUsrM";
+            this.btnUsrM.Size = new System.Drawing.Size(107, 37);
+            this.btnUsrM.TabIndex = 3;
+            this.btnUsrM.Text = "用户管理";
+            this.btnUsrM.UseVisualStyleBackColor = true;
+            this.btnUsrM.Click += new System.EventHandler(this.btnUsrM_Click);
             // 
-            // button6
+            // btnProSH
             // 
-            this.button6.Location = new System.Drawing.Point(277, 190);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 45);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "商品上/下架";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnProSH.Location = new System.Drawing.Point(36, 152);
+            this.btnProSH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProSH.Name = "btnProSH";
+            this.btnProSH.Size = new System.Drawing.Size(107, 37);
+            this.btnProSH.TabIndex = 5;
+            this.btnProSH.Text = "商品上/下架";
+            this.btnProSH.UseVisualStyleBackColor = true;
+            this.btnProSH.Click += new System.EventHandler(this.btnProSH_Click);
             // 
-            // button5
+            // btn_goBack1
             // 
-            this.button5.Location = new System.Drawing.Point(277, 281);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 45);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "退出";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btn_goBack1.Location = new System.Drawing.Point(36, 163);
+            this.btn_goBack1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_goBack1.Name = "btn_goBack1";
+            this.btn_goBack1.Size = new System.Drawing.Size(107, 37);
+            this.btn_goBack1.TabIndex = 6;
+            this.btn_goBack1.Text = "退出";
+            this.btn_goBack1.UseVisualStyleBackColor = true;
+            this.btn_goBack1.Click += new System.EventHandler(this.goBack_1);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnProQ);
+            this.groupBox1.Controls.Add(this.btnProSH);
+            this.groupBox1.Controls.Add(this.btnProIN);
+            this.groupBox1.Location = new System.Drawing.Point(28, 53);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(190, 216);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnOrdQ);
+            this.groupBox2.Controls.Add(this.btnUsrM);
+            this.groupBox2.Controls.Add(this.btn_goBack1);
+            this.groupBox2.Location = new System.Drawing.Point(28, 308);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(190, 221);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // FuncPanl
+            // 
+            this.FuncPanl.Location = new System.Drawing.Point(257, 57);
+            this.FuncPanl.Name = "FuncPanl";
+            this.FuncPanl.Size = new System.Drawing.Size(668, 472);
+            this.FuncPanl.TabIndex = 9;
+            this.FuncPanl.TabStop = false;
+            this.FuncPanl.Text = "Func";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(478, 444);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(982, 571);
+            this.Controls.Add(this.FuncPanl);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,11 +175,14 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnProQ;
+        private System.Windows.Forms.Button btnOrdQ;
+        private System.Windows.Forms.Button btnProIN;
+        private System.Windows.Forms.Button btnUsrM;
+        private System.Windows.Forms.Button btnProSH;
+        private System.Windows.Forms.Button btn_goBack1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox FuncPanl;
     }
 }

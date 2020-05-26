@@ -38,6 +38,7 @@
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -108,8 +109,57 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOnShelf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOnShelf.Designer.cs">
+      <DependentUpon>FormOnShelf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneProductQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaneProductQuery.Designer.cs">
+      <DependentUpon>PaneProductQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaneProduct.Designer.cs">
+      <DependentUpon>PaneProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneShelf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaneShelf.Designer.cs">
+      <DependentUpon>PaneShelf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneOrderQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaneOrderQuery.Designer.cs">
+      <DependentUpon>PaneOrderQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaneUserManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaneUserManage.Designer.cs">
+      <DependentUpon>PaneUserManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlFunc.cs" />
+    <Compile Include="UserWindowOsearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserWindowOsearch.Designer.cs">
+      <DependentUpon>UserWindowOsearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserWindowPSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserWindowPSearch.Designer.cs">
+      <DependentUpon>UserWindowPSearch.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +190,24 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormOnShelf.resx">
+      <DependentUpon>FormOnShelf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneProductQuery.resx">
+      <DependentUpon>PaneProductQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneProduct.resx">
+      <DependentUpon>PaneProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneShelf.resx">
+      <DependentUpon>PaneShelf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneOrderQuery.resx">
+      <DependentUpon>PaneOrderQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaneUserManage.resx">
+      <DependentUpon>PaneUserManage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -148,7 +216,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserWindowOsearch.resx">
+      <DependentUpon>UserWindowOsearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserWindowPSearch.resx">
+      <DependentUpon>UserWindowPSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -159,6 +234,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_Qpic2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
