@@ -20,18 +20,18 @@ namespace databaseproject
         {
             string username = Form1.LoginUsername;
 
-            this.dataProductList1.DataSource = SqlFunc.Query("select * from Products").Tables["Products"];
+            this.dataProductList1.DataSource = SqlFunc.Query("select * from Products,Shelf where Products.p_id = Shelf.p_id and ifOnShelf = 1").Tables["Products"];
 
         }
         private void PSearch_Click1(object sender, EventArgs e)
         {
             String pname = PnameText1.Text.Trim();
             DataSet ds;
-            String sqltmp = "select * from Products";
+            String sqltmp = "select * from Products,Shelf where Products.p_id = Shelf.p_id and ifOnShelf = 1";
 
             if (pname != "" && pname != null)
             {
-                sqltmp += " where p_name like '%" + pname + "%'";
+                sqltmp += " and p_name like '%" + pname + "%'";
             }
 
             ds = SqlFunc.Query(sqltmp);

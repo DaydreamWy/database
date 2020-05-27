@@ -34,6 +34,9 @@
             this.PSearchBtn = new System.Windows.Forms.Button();
             this.PnameLabel2 = new System.Windows.Forms.Label();
             this.dataProductList2 = new System.Windows.Forms.DataGridView();
+            this.buttonBuy = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonView = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataProductList2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,13 +90,46 @@
             this.dataProductList2.Location = new System.Drawing.Point(28, 73);
             this.dataProductList2.Name = "dataProductList2";
             this.dataProductList2.RowTemplate.Height = 27;
-            this.dataProductList2.Size = new System.Drawing.Size(536, 300);
+            this.dataProductList2.Size = new System.Drawing.Size(536, 340);
             this.dataProductList2.TabIndex = 7;
+            // 
+            // buttonBuy
+            // 
+            this.buttonBuy.Location = new System.Drawing.Point(442, 435);
+            this.buttonBuy.Name = "buttonBuy";
+            this.buttonBuy.Size = new System.Drawing.Size(122, 40);
+            this.buttonBuy.TabIndex = 13;
+            this.buttonBuy.Text = "购买";
+            this.buttonBuy.UseVisualStyleBackColor = true;
+            this.buttonBuy.Click += new System.EventHandler(this.buttonBuy_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("楷体", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(305, 494);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(259, 14);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "提示：请先选择商品后再查看详情或购买";
+            // 
+            // buttonView
+            // 
+            this.buttonView.Location = new System.Drawing.Point(28, 435);
+            this.buttonView.Name = "buttonView";
+            this.buttonView.Size = new System.Drawing.Size(122, 40);
+            this.buttonView.TabIndex = 15;
+            this.buttonView.Text = "查看商品详情";
+            this.buttonView.UseVisualStyleBackColor = true;
+            this.buttonView.Click += new System.EventHandler(this.buttonView_Click);
             // 
             // UserWindowPSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonView);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.buttonBuy);
             this.Controls.Add(this.CategoryText2);
             this.Controls.Add(this.CategoryLabel2);
             this.Controls.Add(this.PnameText2);
@@ -101,7 +137,7 @@
             this.Controls.Add(this.PnameLabel2);
             this.Controls.Add(this.dataProductList2);
             this.Name = "UserWindowPSearch";
-            this.Size = new System.Drawing.Size(600, 400);
+            this.Size = new System.Drawing.Size(600, 520);
             this.Load += new System.EventHandler(this.UserWindowPSearch_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataProductList2)).EndInit();
             this.ResumeLayout(false);
@@ -117,5 +153,8 @@
         private System.Windows.Forms.Button PSearchBtn;
         private System.Windows.Forms.Label PnameLabel2;
         private System.Windows.Forms.DataGridView dataProductList2;
+        private System.Windows.Forms.Button buttonBuy;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonView;
     }
 }

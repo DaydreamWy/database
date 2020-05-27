@@ -26,12 +26,17 @@ namespace databaseproject
         {
             string o_id = textBox4.Text.Trim();
             string sql = "select p_id,u_id,o_num,o_buyTime,o_Money from AllOrder where o_id ='" + o_id + "'";
-            DataSet ds = Form7.Query(sql);
+            DataSet ds = SqlFunc.Query(sql);
             textBox1.Text = ds.Tables[0].Rows[0][0].ToString();
             textBox2.Text = ds.Tables[0].Rows[0][1].ToString();
             textBox3.Text = ds.Tables[0].Rows[0][2].ToString();
             textBox6.Text = ds.Tables[0].Rows[0][3].ToString();
             textBox5.Text = ds.Tables[0].Rows[0][4].ToString();
+
+        }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
 
         }
     }

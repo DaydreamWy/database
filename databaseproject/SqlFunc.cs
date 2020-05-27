@@ -26,8 +26,8 @@ namespace databaseproject
             }
             catch (SqlException e)
             {
+                MessageBox.Show(e.Message, "SQL错误");
                 throw new Exception(e.Message);
-
             }
             finally
             {

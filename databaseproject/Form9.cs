@@ -12,54 +12,49 @@ namespace databaseproject
 {
     public partial class Form9 : Form
     {
-        static string connectionString = System.Configuration.ConfigurationManager.AppSettings["connectionString"];
-
-        public Form9()
+        private string para_p_id, para_p_name;
+        //使用UserWindowPSearch.cs传进来的参数
+        public Form9(string p_id, string p_name)
         {
+            this.para_p_id = p_id;
+            this.para_p_name = p_name;
             InitializeComponent();
         }
-
-        public static int ExecuteSql(String sql)
+        //初始化信息
+        private void Form9_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(connectionString);
-            SqlCommand cmd = new SqlCommand(sql, con);
-            try
-            {
-                con.Open();
-                int rows = cmd.ExecuteNonQuery();
-                return rows;
-            }
-            catch (SqlException e)
-            {
-                throw new Exception(e.Message);
-            }
-            finally
-            {
-                cmd.Dispose();
-                con.Close();
-            }
+            //绑定商品名
+            textBox1.Text = para_p_name;
+            textBox1.ReadOnly = true;
+            textBox1.Enabled = false;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
+            //使用UserWindowPSearch.cs传进来的参数
             string buy_p_name = textBox1.Text.Trim();
             int buy_number = int.Parse(textBox3.Text.Trim());
             string recv_name = textBox2.Text.Trim();
             string recv_addr = textBox4.Text.Trim();
             string recv_tele = textBox5.Text.Trim();
-            
-            string sql = "select p_name,number from Products,Shelf where Products.p_id = Shelf.p_id and p_name ='" + buy_p_name + "'" ;
-            DataSet ds = Form7.Query(sql);
+
+            //MessageBox.Show(para_p_id+","+para_p_name);
+            //这里我在Shelf和Products都设置了一个number/p_number
+            string sql = string.Format("select p_name,p_number,price from Products where p_id ={0};",
+                this.para_p_id);
+            DataSet ds = SqlFunc.Query(sql);
 
             if (ds.Tables[0].Rows.Count == 0)
             {
                 MessageBox.Show("商品名称输入错误或不存在");
                 return;
             }
-
-            string p_name = ds.Tables[0].Rows[0][0].ToString();
-            int number = int.Parse(ds.Tables[0].Rows[0][1].ToString());
-            
+            //MessageBox.Show(ds.Tables[0].Rows[0][0].ToString()+"("+ ds.Tables[0].Rows[0][0].ToString().Length + "),"+ ds.Tables[0].Rows[0][1].ToString()+","+ds.Tables[0].Rows[0][2].ToString());
+            //string p_name = ds.Tables[0].Rows[0][0].ToString();
+            int number;
+            if(ds.Tables[0].Rows[0][1] == null)
+                number = 0;
+            else
+                number = int.Parse(ds.Tables[0].Rows[0][1].ToString());
             
             if(buy_number > number)
             {
@@ -68,26 +63,31 @@ namespace databaseproject
             }
             else
             {
-                string sql1 = "select p_id,price from Products where p_name ='" + buy_p_name + "'";
-                DataSet ds1 = Form7.Query(sql);
-                string buy_p_id = ds1.Tables[0].Rows[0][0].ToString();
-                int buy_per_price = int.Parse(ds1.Tables[0].Rows[0][1].ToString());
+               
+                /*string sql1 = string.Format(
+                    "select p_id,price from Products where p_id = {0} and p_name = '{1}'"
+                    ,para_p_id, buy_p_name);
+                DataSet ds1 = SqlFunc.Query(sql);*/
+                string buy_p_id = this.para_p_id;//ds1.Tables[0].Rows[0][0].ToString();
+                int buy_per_price = int.Parse(ds.Tables[0].Rows[0][2].ToString());//int.Parse(ds1.Tables[0].Rows[0][1].ToString());
 
+                //MessageBox.Show("sql2");
                 string buy_time = DateTime.Now.ToString();
                 int buy_money = buy_per_price * number;
-                string sql2 = "insert into AllOrder(p_id,o_num,o_buyTime,o_money) values(" + buy_p_id + "," + buy_number + ",'" + buy_time + "'," + buy_money + ")";
-                Form9.ExecuteSql(sql2);
+                string buy_address = textBox4.Text.Trim();
+                string buy_phone = textBox5.Text.Trim();
+                string sql2 = string.Format(
+                    "insert into AllOrder(p_id,u_id,o_num,o_buyTime,o_Money,o_address,o_phoneNumber) values({0},{1},{2},'{3}',{4},'{5}','{6}')"
+                    , this.para_p_id, Form1.LoginUserId, buy_number, buy_time, buy_money,buy_address,buy_phone);//buy_p_id
+                SqlFunc.ExecuteSql(sql2);
+
+                MessageBox.Show("订单已经生成，即将跳转支付页面");
+                //支付界面
                 Form10 childrenForm = new Form10();
                 childrenForm.Owner = this;
                 childrenForm.Show();
             }
-           
-
         }
 
-        private void Form9_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

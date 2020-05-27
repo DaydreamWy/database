@@ -88,7 +88,7 @@
             this.SellerOrderList.Size = new System.Drawing.Size(536, 300);
             this.SellerOrderList.TabIndex = 23;
             // 
-            // FuncPane4
+            // PaneOrderQuery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -98,7 +98,7 @@
             this.Controls.Add(this.SellerOrderLabelTimeStart);
             this.Controls.Add(this.SellerOrderSearchBtn);
             this.Controls.Add(this.SellerOrderList);
-            this.Name = "FuncPane4";
+            this.Name = "PaneOrderQuery";
             this.Size = new System.Drawing.Size(668, 472);
             this.Load += new System.EventHandler(this.FuncPane4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SellerOrderList)).EndInit();
