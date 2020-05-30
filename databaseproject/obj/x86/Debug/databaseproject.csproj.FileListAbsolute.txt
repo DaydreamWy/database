@@ -70,3 +70,11 @@ D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.FormOnShelf.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources

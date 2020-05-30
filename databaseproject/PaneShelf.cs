@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace databaseproject
 {
@@ -14,37 +16,26 @@ namespace databaseproject
         public PaneShelf()
         {
             InitializeComponent();
-
         }
 
-        void InitializeListShelf()
+        public void UpdateProductonoffList()
         {
-            this.listOffShelf.Items.Clear();
-            string sql = string.Format(
-                "select Shelf.p_id, p_name " +
-                "from Shelf,Product where Shelf.p_id = Product.p_id " +
-                "and s_id = {0} and ifOnshelf = 0", Form1.LoginUserId);
+            DataSet ds;
+            string sqltmp = "select * from Shelf where s_id = '" + Form1.LoginUserId + "'";
 
-            DataSet ds = SqlFunc.Query(sql);
-            if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
-            {
-                foreach (DataRow dr in ds.Tables[0].Rows)
-                {
-                    string p_id = dr[0].ToString();
-                    string p_name = dr[1].ToString();
-                    
-                    ListViewItem lvItem = new ListViewItem();
-                    lvItem.Text = p_id;
-                    lvItem.SubItems.Add(p_name);
-              
-                    this.listOffShelf.Items.Add(lvItem);
-                }
-            }
+            ds = SqlFunc.Query(sqltmp);
+
+            this.ProductonoffList.DataSource = ds.Tables[0];
+
         }
-        
+
+        private void FuncPane3_Load(object sender, EventArgs e)
+        {
+            UpdateProductonoffList();
+        }
 
        
-        //然后ListView控件读取当前选择行的代码时可以这样
+       //然后ListView控件读取当前选择行的代码时可以这样
 
        //读取ListView的某行的信息       
        /*private void listView_EH_Click(object sender, EventArgs e)
@@ -60,20 +51,49 @@ namespace databaseproject
             this.com_answertype.Text = dr["AnswerTypeName"].ToString();
         }*/
 
-
-        private void FuncPane3_Load(object sender, EventArgs e)
-        {
-
-        }
         //上架
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int a = ProductonoffList.CurrentRow.Index;
+            string p_id = ProductonoffList.Rows[a].Cells[1].Value.ToString().Trim();
+            string s_id = Form1.LoginUserId;//获取输入的商家编号
+            SqlConnection con = new SqlConnection("server=localhost;database=Management;user=sa;pwd=123456");//；连接服务器
+            con.Open();//将连接打开
+            SqlCommand cmd = con.CreateCommand();//执行con对象的函数，返回一个SqlCommand类型的对象
+            cmd.CommandText = string.Format("update shelf set ifOnShelf=1 where p_id={0} and s_id={1};",p_id,s_id);//把输入的数据拼接成sql语句，并交给cmd对象
+            int flag = cmd.ExecuteNonQuery();
+            if (flag > 0)
+            {
+                MessageBox.Show("上架成功", "提示");
+                UpdateProductonoffList();
+            }
+            else
+            {
+                MessageBox.Show("上架失败", "提示");
+            }
+            con.Close();//用完后关闭连接，以免影响其他程序访问
         }
         //下架
         private void button2_Click(object sender, EventArgs e)
         {
-
+            int a = ProductonoffList.CurrentRow.Index;
+            string p_id = ProductonoffList.Rows[a].Cells[1].Value.ToString().Trim();
+            string s_id = Form1.LoginUserId;//获取输入的商家编号
+            SqlConnection con = new SqlConnection("server=localhost;database=Management;user=sa;pwd=123456");//；连接服务器
+            con.Open();//将连接打开
+            SqlCommand cmd = con.CreateCommand();//执行con对象的函数，返回一个SqlCommand类型的对象
+            cmd.CommandText = string.Format("update shelf set ifOnShelf=0 where p_id={0}and s_id={1};", p_id, s_id);//把输入的数据拼接成sql语句，并交给cmd对象
+            int flag = cmd.ExecuteNonQuery();
+            if (flag > 0)
+            {
+                MessageBox.Show("下架成功", "提示");
+                UpdateProductonoffList();
+            }
+            else
+            {
+                MessageBox.Show("下架失败", "提示");
+            }
+            con.Close();//用完后关闭连接，以免影响其他程序访问
         }
     }
 }
