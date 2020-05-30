@@ -57,10 +57,11 @@ namespace databaseproject
             int a = ProductonoffList.CurrentRow.Index;
             string p_id = ProductonoffList.Rows[a].Cells[1].Value.ToString().Trim();
             string s_id = Form1.LoginUserId;//获取输入的商家编号
+            string onshelftime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");//获取当前时间
             SqlConnection con = new SqlConnection("server=localhost;database=Management;user=sa;pwd=123456");//；连接服务器
             con.Open();//将连接打开
             SqlCommand cmd = con.CreateCommand();//执行con对象的函数，返回一个SqlCommand类型的对象
-            cmd.CommandText = string.Format("update shelf set ifOnShelf=1 where p_id={0} and s_id={1};",p_id,s_id);//把输入的数据拼接成sql语句，并交给cmd对象
+            cmd.CommandText = string.Format("update shelf set ifOnShelf=1,timeonshelf='{0}' where p_id={1} and s_id={2};",onshelftime,p_id,s_id);//把输入的数据拼接成sql语句，并交给cmd对象
             int flag = cmd.ExecuteNonQuery();
             if (flag > 0)
             {
@@ -79,10 +80,11 @@ namespace databaseproject
             int a = ProductonoffList.CurrentRow.Index;
             string p_id = ProductonoffList.Rows[a].Cells[1].Value.ToString().Trim();
             string s_id = Form1.LoginUserId;//获取输入的商家编号
+            string offshelftime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");//获取当前时间
             SqlConnection con = new SqlConnection("server=localhost;database=Management;user=sa;pwd=123456");//；连接服务器
             con.Open();//将连接打开
             SqlCommand cmd = con.CreateCommand();//执行con对象的函数，返回一个SqlCommand类型的对象
-            cmd.CommandText = string.Format("update shelf set ifOnShelf=0 where p_id={0}and s_id={1};", p_id, s_id);//把输入的数据拼接成sql语句，并交给cmd对象
+            cmd.CommandText = string.Format("update shelf set ifOnShelf=0,timeoffshelf='{0}' where p_id={1}and s_id={2};",offshelftime, p_id, s_id);//把输入的数据拼接成sql语句，并交给cmd对象
             int flag = cmd.ExecuteNonQuery();
             if (flag > 0)
             {
