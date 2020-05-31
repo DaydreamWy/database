@@ -78,3 +78,29 @@ C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databasepr
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.OrderManagement.resources
+D:\database class project\database\databaseproject\bin\Debug\databaseproject.exe.config
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.exe
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.pdb
+D:\database class project\database\databaseproject\bin\Debug\databaseproject.exe
+D:\database class project\database\databaseproject\bin\Debug\databaseproject.pdb
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.csprojResolveAssemblyReference.cache
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.OrderManagement.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.Cache

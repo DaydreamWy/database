@@ -41,19 +41,21 @@
             // 
             // UserGroupBox
             // 
-            this.UserGroupBox.Location = new System.Drawing.Point(268, 22);
+            this.UserGroupBox.Location = new System.Drawing.Point(302, 26);
+            this.UserGroupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UserGroupBox.Name = "UserGroupBox";
-            this.UserGroupBox.Size = new System.Drawing.Size(600, 520);
+            this.UserGroupBox.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UserGroupBox.Size = new System.Drawing.Size(675, 624);
             this.UserGroupBox.TabIndex = 7;
             this.UserGroupBox.TabStop = false;
             this.UserGroupBox.Text = "groupContent";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(37, 285);
+            this.button2.Location = new System.Drawing.Point(42, 331);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 33);
+            this.button2.Size = new System.Drawing.Size(116, 40);
             this.button2.TabIndex = 8;
             this.button2.Text = "订单查询";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,10 +63,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(37, 350);
+            this.button5.Location = new System.Drawing.Point(42, 402);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(103, 33);
+            this.button5.Size = new System.Drawing.Size(116, 40);
             this.button5.TabIndex = 10;
             this.button5.Text = "退出";
             this.button5.UseVisualStyleBackColor = true;
@@ -73,19 +75,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 12F);
-            this.label1.Location = new System.Drawing.Point(54, 33);
+            this.label1.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label1.Location = new System.Drawing.Point(61, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.Size = new System.Drawing.Size(94, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "WQL小店";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 216);
+            this.button1.Location = new System.Drawing.Point(42, 263);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 33);
+            this.button1.Size = new System.Drawing.Size(116, 40);
             this.button1.TabIndex = 7;
             this.button1.Text = "商品查询";
             this.button1.UseVisualStyleBackColor = true;
@@ -95,9 +97,10 @@
             // 
             this.UserPicBox.BackgroundImage = global::databaseproject.Properties.Resources.new_Qpic2;
             this.UserPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.UserPicBox.Location = new System.Drawing.Point(37, 56);
+            this.UserPicBox.Location = new System.Drawing.Point(42, 67);
+            this.UserPicBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UserPicBox.Name = "UserPicBox";
-            this.UserPicBox.Size = new System.Drawing.Size(117, 109);
+            this.UserPicBox.Size = new System.Drawing.Size(132, 131);
             this.UserPicBox.TabIndex = 11;
             this.UserPicBox.TabStop = false;
             // 
@@ -108,19 +111,21 @@
             this.menu.Controls.Add(this.button5);
             this.menu.Controls.Add(this.button1);
             this.menu.Controls.Add(this.label1);
-            this.menu.Location = new System.Drawing.Point(24, 22);
+            this.menu.Location = new System.Drawing.Point(27, 26);
+            this.menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(200, 520);
+            this.menu.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.menu.Size = new System.Drawing.Size(225, 624);
             this.menu.TabIndex = 12;
             this.menu.TabStop = false;
             this.menu.Text = "groupMenu";
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(982, 571);
+            this.ClientSize = new System.Drawing.Size(1105, 685);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.UserGroupBox);
             this.Location = new System.Drawing.Point(100, 200);

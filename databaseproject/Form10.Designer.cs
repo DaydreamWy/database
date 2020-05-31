@@ -37,19 +37,19 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(19, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 7);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(387, 359);
+            this.pictureBox1.Size = new System.Drawing.Size(383, 414);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(180, 370);
+            this.button1.Location = new System.Drawing.Point(187, 383);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 32);
+            this.button1.Size = new System.Drawing.Size(75, 38);
             this.button1.TabIndex = 1;
             this.button1.Text = "返回";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // Form10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 412);
+            this.ClientSize = new System.Drawing.Size(478, 444);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
