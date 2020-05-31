@@ -28,7 +28,7 @@ namespace databaseproject
         {
             string p_id = textBox1.Text.Trim();
             
-string sql = "select category,price,describe,p_width,p_length,p_height from Products where p_id ='" + p_id + "'";
+            string sql = "select category,price,describe,p_width,p_length,p_height from Products where p_id ='" + p_id + "'";
             DataSet ds = SqlFunc.Query(sql);
             textBox5.Text = ds.Tables[0].Rows[0][0].ToString();
             textBox7.Text = ds.Tables[0].Rows[0][1].ToString();

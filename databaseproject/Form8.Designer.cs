@@ -133,7 +133,6 @@
             this.label2.Size = new System.Drawing.Size(112, 15);
             this.label2.TabIndex = 22;
             this.label2.Text = "购买商品编号：";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox6
             // 

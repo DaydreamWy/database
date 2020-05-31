@@ -32,7 +32,6 @@
             this.btnProQ = new System.Windows.Forms.Button();
             this.btnOrdQ = new System.Windows.Forms.Button();
             this.btnProIN = new System.Windows.Forms.Button();
-            this.btnUsrM = new System.Windows.Forms.Button();
             this.btnProSH = new System.Windows.Forms.Button();
             this.btn_goBack1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -54,7 +53,7 @@
             // 
             // btnProQ
             // 
-            this.btnProQ.Location = new System.Drawing.Point(36, 35);
+            this.btnProQ.Location = new System.Drawing.Point(36, 50);
             this.btnProQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProQ.Name = "btnProQ";
             this.btnProQ.Size = new System.Drawing.Size(107, 37);
@@ -65,18 +64,18 @@
             // 
             // btnOrdQ
             // 
-            this.btnOrdQ.Location = new System.Drawing.Point(36, 42);
+            this.btnOrdQ.Location = new System.Drawing.Point(36, 185);
             this.btnOrdQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOrdQ.Name = "btnOrdQ";
             this.btnOrdQ.Size = new System.Drawing.Size(107, 37);
             this.btnOrdQ.TabIndex = 2;
-            this.btnOrdQ.Text = "订单查询";
+            this.btnOrdQ.Text = "订单管理";
             this.btnOrdQ.UseVisualStyleBackColor = true;
             this.btnOrdQ.Click += new System.EventHandler(this.btnOrdQ_Click);
             // 
             // btnProIN
             // 
-            this.btnProIN.Location = new System.Drawing.Point(36, 91);
+            this.btnProIN.Location = new System.Drawing.Point(36, 47);
             this.btnProIN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProIN.Name = "btnProIN";
             this.btnProIN.Size = new System.Drawing.Size(107, 37);
@@ -85,20 +84,9 @@
             this.btnProIN.UseVisualStyleBackColor = true;
             this.btnProIN.Click += new System.EventHandler(this.btnProIN_Click);
             // 
-            // btnUsrM
-            // 
-            this.btnUsrM.Location = new System.Drawing.Point(36, 102);
-            this.btnUsrM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnUsrM.Name = "btnUsrM";
-            this.btnUsrM.Size = new System.Drawing.Size(107, 37);
-            this.btnUsrM.TabIndex = 3;
-            this.btnUsrM.Text = "用户管理";
-            this.btnUsrM.UseVisualStyleBackColor = true;
-            this.btnUsrM.Click += new System.EventHandler(this.btnUsrM_Click);
-            // 
             // btnProSH
             // 
-            this.btnProSH.Location = new System.Drawing.Point(36, 152);
+            this.btnProSH.Location = new System.Drawing.Point(36, 118);
             this.btnProSH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProSH.Name = "btnProSH";
             this.btnProSH.Size = new System.Drawing.Size(107, 37);
@@ -109,7 +97,7 @@
             // 
             // btn_goBack1
             // 
-            this.btn_goBack1.Location = new System.Drawing.Point(36, 163);
+            this.btn_goBack1.Location = new System.Drawing.Point(36, 116);
             this.btn_goBack1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_goBack1.Name = "btn_goBack1";
             this.btn_goBack1.Size = new System.Drawing.Size(107, 37);
@@ -120,24 +108,23 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnProQ);
             this.groupBox1.Controls.Add(this.btnProSH);
+            this.groupBox1.Controls.Add(this.btnOrdQ);
             this.groupBox1.Controls.Add(this.btnProIN);
             this.groupBox1.Location = new System.Drawing.Point(28, 53);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(190, 216);
+            this.groupBox1.Size = new System.Drawing.Size(190, 246);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnOrdQ);
-            this.groupBox2.Controls.Add(this.btnUsrM);
+            this.groupBox2.Controls.Add(this.btnProQ);
             this.groupBox2.Controls.Add(this.btn_goBack1);
-            this.groupBox2.Location = new System.Drawing.Point(28, 308);
+            this.groupBox2.Location = new System.Drawing.Point(28, 319);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(190, 221);
+            this.groupBox2.Size = new System.Drawing.Size(190, 181);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
@@ -178,7 +165,6 @@
         private System.Windows.Forms.Button btnProQ;
         private System.Windows.Forms.Button btnOrdQ;
         private System.Windows.Forms.Button btnProIN;
-        private System.Windows.Forms.Button btnUsrM;
         private System.Windows.Forms.Button btnProSH;
         private System.Windows.Forms.Button btn_goBack1;
         private System.Windows.Forms.GroupBox groupBox1;

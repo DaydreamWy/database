@@ -57,7 +57,6 @@ D:\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.FormOnShelf.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
@@ -70,3 +69,4 @@ D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.OrderManagement.resources

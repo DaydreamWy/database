@@ -109,11 +109,11 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOnShelf.cs">
+    <Compile Include="OrderManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOnShelf.Designer.cs">
-      <DependentUpon>FormOnShelf.cs</DependentUpon>
+    <Compile Include="OrderManagement.Designer.cs">
+      <DependentUpon>OrderManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="PaneProductQuery.cs">
       <SubType>UserControl</SubType>
@@ -190,8 +190,8 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormOnShelf.resx">
-      <DependentUpon>FormOnShelf.cs</DependentUpon>
+    <EmbeddedResource Include="OrderManagement.resx">
+      <DependentUpon>OrderManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaneProductQuery.resx">
       <DependentUpon>PaneProductQuery.cs</DependentUpon>
@@ -237,6 +237,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\new_Qpic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sellers\" />
+    <Folder Include="Users\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
