@@ -37,9 +37,10 @@
             // 
             // BtnIN
             // 
-            this.BtnIN.Location = new System.Drawing.Point(45, 23);
+            this.BtnIN.Location = new System.Drawing.Point(51, 28);
+            this.BtnIN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnIN.Name = "BtnIN";
-            this.BtnIN.Size = new System.Drawing.Size(146, 49);
+            this.BtnIN.Size = new System.Drawing.Size(164, 59);
             this.BtnIN.TabIndex = 0;
             this.BtnIN.Text = "入库";
             this.BtnIN.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // BtnNEW
             // 
-            this.BtnNEW.Location = new System.Drawing.Point(484, 23);
+            this.BtnNEW.Location = new System.Drawing.Point(544, 28);
+            this.BtnNEW.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnNEW.Name = "BtnNEW";
-            this.BtnNEW.Size = new System.Drawing.Size(138, 49);
+            this.BtnNEW.Size = new System.Drawing.Size(155, 59);
             this.BtnNEW.TabIndex = 2;
             this.BtnNEW.Text = "新建";
             this.BtnNEW.UseVisualStyleBackColor = true;
@@ -58,32 +60,35 @@
             // ProductIOList
             // 
             this.ProductIOList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ProductIOList.Location = new System.Drawing.Point(45, 107);
+            this.ProductIOList.Location = new System.Drawing.Point(51, 128);
+            this.ProductIOList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ProductIOList.Name = "ProductIOList";
             this.ProductIOList.RowTemplate.Height = 27;
-            this.ProductIOList.Size = new System.Drawing.Size(577, 312);
+            this.ProductIOList.Size = new System.Drawing.Size(649, 374);
             this.ProductIOList.TabIndex = 3;
             // 
             // BtnOUT
             // 
-            this.BtnOUT.Location = new System.Drawing.Point(265, 23);
+            this.BtnOUT.Location = new System.Drawing.Point(298, 28);
+            this.BtnOUT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnOUT.Name = "BtnOUT";
-            this.BtnOUT.Size = new System.Drawing.Size(138, 49);
+            this.BtnOUT.Size = new System.Drawing.Size(155, 59);
             this.BtnOUT.TabIndex = 4;
             this.BtnOUT.Text = "出库";
             this.BtnOUT.UseVisualStyleBackColor = true;
             this.BtnOUT.Click += new System.EventHandler(this.BtnOUT_Click);
             // 
-            // FuncPane2
+            // PaneProduct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.BtnOUT);
             this.Controls.Add(this.ProductIOList);
             this.Controls.Add(this.BtnNEW);
             this.Controls.Add(this.BtnIN);
-            this.Name = "FuncPane2";
-            this.Size = new System.Drawing.Size(668, 472);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "PaneProduct";
+            this.Size = new System.Drawing.Size(752, 566);
             this.Load += new System.EventHandler(this.FuncPane2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ProductIOList)).EndInit();
             this.ResumeLayout(false);
