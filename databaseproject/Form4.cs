@@ -76,14 +76,10 @@ namespace databaseproject
             this.Close();
         }
 
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
