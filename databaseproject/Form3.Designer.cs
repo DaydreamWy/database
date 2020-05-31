@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.UserGroupBox = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,19 +48,9 @@
             this.UserGroupBox.TabStop = false;
             this.UserGroupBox.Text = "groupContent";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(37, 295);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 33);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "购物商城";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(37, 242);
+            this.button2.Location = new System.Drawing.Point(37, 285);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 33);
@@ -93,7 +82,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 191);
+            this.button1.Location = new System.Drawing.Point(37, 216);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 33);
@@ -118,7 +107,6 @@
             this.menu.Controls.Add(this.button2);
             this.menu.Controls.Add(this.button5);
             this.menu.Controls.Add(this.button1);
-            this.menu.Controls.Add(this.button4);
             this.menu.Controls.Add(this.label1);
             this.menu.Location = new System.Drawing.Point(24, 22);
             this.menu.Name = "menu";
@@ -150,7 +138,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox UserGroupBox;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;

@@ -15,6 +15,7 @@ namespace databaseproject
         private string p_id;
         private string u_id;
         private PaneOrderQuery father;
+        private int func_id;
 
         //func_id = 0 查看详情,1 修改
         public OrderManagement(PaneOrderQuery father, string o_id,string p_id, string u_id, int func_id = 0)
@@ -24,7 +25,7 @@ namespace databaseproject
             this.o_id = o_id;
             this.p_id = p_id;
             this.u_id = u_id;
-
+            this.func_id = func_id;
 
             //设置为只读
             textBoxOID.Enabled = false;
@@ -48,6 +49,7 @@ namespace databaseproject
 
             if (func_id == 1)
             {
+                button1.Text = "确认修改";
                 button1.Visible = true;
 
                 textBoxNICKNAME.Enabled = true;
@@ -61,7 +63,8 @@ namespace databaseproject
             }
             else
             {
-                button1.Visible = false;
+                button1.Text = "返回";
+                //button1.Visible = false;
 
                 textBoxNICKNAME.Enabled = false;
                 textBoxNICKNAME.ReadOnly = true;
@@ -106,6 +109,16 @@ namespace databaseproject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if(func_id == 0)
+            {
+                this.Close();
+                return;
+            }
+            if(func_id != 1)
+            {
+                return ;
+            }
+
             string o_nickname = textBoxNICKNAME.Text;
             string o_address = textBoxADDRESS.Text;
             string o_phoneNumber = textBoxPHONE.Text;

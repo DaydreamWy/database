@@ -29,29 +29,29 @@
         private void InitializeComponent()
         {
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.TBox0 = new System.Windows.Forms.TextBox();
+            this.Lable0 = new System.Windows.Forms.Label();
+            this.TBox8 = new System.Windows.Forms.TextBox();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.TBox7 = new System.Windows.Forms.TextBox();
+            this.Lable8 = new System.Windows.Forms.Label();
+            this.TBox1 = new System.Windows.Forms.TextBox();
+            this.Lable2 = new System.Windows.Forms.Label();
+            this.TBox2 = new System.Windows.Forms.TextBox();
+            this.TBox3 = new System.Windows.Forms.TextBox();
+            this.Lable3 = new System.Windows.Forms.Label();
+            this.Lable9 = new System.Windows.Forms.Label();
+            this.TBox4 = new System.Windows.Forms.TextBox();
+            this.Lable4 = new System.Windows.Forms.Label();
+            this.Lable7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TBox5 = new System.Windows.Forms.TextBox();
+            this.Lable5 = new System.Windows.Forms.Label();
+            this.TBox6 = new System.Windows.Forms.TextBox();
+            this.Lable6 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,237 +59,242 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(337, 31);
+            this.label6.Location = new System.Drawing.Point(300, 26);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 24);
+            this.label6.Size = new System.Drawing.Size(89, 20);
             this.label6.TabIndex = 46;
             this.label6.Text = "商品详情";
             // 
-            // textBox1
+            // TBox0
             // 
-            this.textBox1.Location = new System.Drawing.Point(203, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 28);
-            this.textBox1.TabIndex = 39;
+            this.TBox0.Location = new System.Drawing.Point(180, 90);
+            this.TBox0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox0.Name = "TBox0";
+            this.TBox0.Size = new System.Drawing.Size(120, 25);
+            this.TBox0.TabIndex = 39;
             // 
-            // label1
+            // Lable0
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 111);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 18);
-            this.label1.TabIndex = 42;
-            this.label1.Text = "商 品 编 号：";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Lable0.AutoSize = true;
+            this.Lable0.Location = new System.Drawing.Point(64, 92);
+            this.Lable0.Name = "Lable0";
+            this.Lable0.Size = new System.Drawing.Size(106, 15);
+            this.Lable0.TabIndex = 42;
+            this.Lable0.Text = "商 品 编 号：";
             // 
-            // textBox6
+            // TBox8
             // 
-            this.textBox6.Location = new System.Drawing.Point(201, 441);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(135, 28);
-            this.textBox6.TabIndex = 48;
+            this.TBox8.Location = new System.Drawing.Point(180, 415);
+            this.TBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox8.Name = "TBox8";
+            this.TBox8.Size = new System.Drawing.Size(120, 25);
+            this.TBox8.TabIndex = 48;
             // 
-            // label3
+            // Label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(395, 111);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 18);
-            this.label3.TabIndex = 44;
-            this.label3.Text = "商 品 名 称：";
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(351, 92);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(106, 15);
+            this.Label1.TabIndex = 44;
+            this.Label1.Text = "商 品 名 称：";
             // 
-            // textBox4
+            // TBox7
             // 
-            this.textBox4.Location = new System.Drawing.Point(202, 494);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(135, 28);
-            this.textBox4.TabIndex = 45;
+            this.TBox7.Location = new System.Drawing.Point(180, 374);
+            this.TBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox7.Name = "TBox7";
+            this.TBox7.Size = new System.Drawing.Size(120, 25);
+            this.TBox7.TabIndex = 45;
             // 
-            // label7
+            // Lable8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(71, 444);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(125, 18);
-            this.label7.TabIndex = 47;
-            this.label7.Text = "商 品 状 态：";
+            this.Lable8.AutoSize = true;
+            this.Lable8.Location = new System.Drawing.Point(64, 418);
+            this.Lable8.Name = "Lable8";
+            this.Lable8.Size = new System.Drawing.Size(106, 15);
+            this.Lable8.TabIndex = 47;
+            this.Lable8.Text = "商 品 状 态：";
             // 
-            // textBox2
+            // TBox1
             // 
-            this.textBox2.Location = new System.Drawing.Point(526, 108);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 28);
-            this.textBox2.TabIndex = 43;
+            this.TBox1.Location = new System.Drawing.Point(468, 90);
+            this.TBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox1.Name = "TBox1";
+            this.TBox1.Size = new System.Drawing.Size(120, 25);
+            this.TBox1.TabIndex = 43;
             // 
-            // label5
+            // Lable2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(71, 165);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 18);
-            this.label5.TabIndex = 49;
-            this.label5.Text = "商 品 种 类：";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.Lable2.AutoSize = true;
+            this.Lable2.Location = new System.Drawing.Point(63, 137);
+            this.Lable2.Name = "Lable2";
+            this.Lable2.Size = new System.Drawing.Size(106, 15);
+            this.Lable2.TabIndex = 49;
+            this.Lable2.Text = "商 品 种 类：";
             // 
-            // textBox5
+            // TBox2
             // 
-            this.textBox5.Location = new System.Drawing.Point(202, 162);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(135, 28);
-            this.textBox5.TabIndex = 50;
+            this.TBox2.Location = new System.Drawing.Point(180, 135);
+            this.TBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox2.Name = "TBox2";
+            this.TBox2.Size = new System.Drawing.Size(120, 25);
+            this.TBox2.TabIndex = 50;
             // 
-            // textBox7
+            // TBox3
             // 
-            this.textBox7.Location = new System.Drawing.Point(203, 221);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(135, 28);
-            this.textBox7.TabIndex = 52;
+            this.TBox3.Location = new System.Drawing.Point(180, 184);
+            this.TBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox3.Name = "TBox3";
+            this.TBox3.Size = new System.Drawing.Size(120, 25);
+            this.TBox3.TabIndex = 52;
             // 
-            // label8
+            // Lable3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 224);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(125, 18);
-            this.label8.TabIndex = 51;
-            this.label8.Text = "商 品 单 价：";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.Lable3.AutoSize = true;
+            this.Lable3.Location = new System.Drawing.Point(63, 187);
+            this.Lable3.Name = "Lable3";
+            this.Lable3.Size = new System.Drawing.Size(106, 15);
+            this.Lable3.TabIndex = 51;
+            this.Lable3.Text = "商 品 单 价：";
             // 
-            // textBox8
+            // Lable9
             // 
-            this.textBox8.Location = new System.Drawing.Point(203, 543);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(477, 28);
-            this.textBox8.TabIndex = 54;
+            this.Lable9.AutoSize = true;
+            this.Lable9.Location = new System.Drawing.Point(63, 455);
+            this.Lable9.Name = "Lable9";
+            this.Lable9.Size = new System.Drawing.Size(106, 15);
+            this.Lable9.TabIndex = 53;
+            this.Lable9.Text = "商 品 描 述：";
             // 
-            // label9
+            // TBox4
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(71, 546);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(125, 18);
-            this.label9.TabIndex = 53;
-            this.label9.Text = "商 品 描 述：";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.TBox4.Location = new System.Drawing.Point(180, 232);
+            this.TBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox4.Name = "TBox4";
+            this.TBox4.Size = new System.Drawing.Size(120, 25);
+            this.TBox4.TabIndex = 58;
             // 
-            // textBox10
+            // Lable4
             // 
-            this.textBox10.Location = new System.Drawing.Point(203, 279);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(135, 28);
-            this.textBox10.TabIndex = 58;
+            this.Lable4.AutoSize = true;
+            this.Lable4.Location = new System.Drawing.Point(32, 235);
+            this.Lable4.Name = "Lable4";
+            this.Lable4.Size = new System.Drawing.Size(137, 15);
+            this.Lable4.TabIndex = 57;
+            this.Lable4.Text = "商 品 规 格(长)：";
             // 
-            // label11
+            // Lable7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(36, 282);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(161, 18);
-            this.label11.TabIndex = 57;
-            this.label11.Text = "商 品 规 格(长)：";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(71, 497);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 18);
-            this.label4.TabIndex = 59;
-            this.label4.Text = "商 品 库 存：";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.Lable7.AutoSize = true;
+            this.Lable7.Location = new System.Drawing.Point(63, 376);
+            this.Lable7.Name = "Lable7";
+            this.Lable7.Size = new System.Drawing.Size(106, 15);
+            this.Lable7.TabIndex = 59;
+            this.Lable7.Text = "商 品 库 存：";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(395, 174);
+            this.label10.Location = new System.Drawing.Point(351, 145);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(125, 18);
+            this.label10.Size = new System.Drawing.Size(106, 15);
             this.label10.TabIndex = 60;
             this.label10.Text = "商 品 图 片：";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(399, 211);
+            this.pictureBox1.Location = new System.Drawing.Point(355, 176);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(353, 304);
+            this.pictureBox1.Size = new System.Drawing.Size(314, 253);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 61;
             this.pictureBox1.TabStop = false;
             // 
+            // TBox5
+            // 
+            this.TBox5.Location = new System.Drawing.Point(180, 278);
+            this.TBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox5.Name = "TBox5";
+            this.TBox5.Size = new System.Drawing.Size(120, 25);
+            this.TBox5.TabIndex = 64;
+            // 
+            // Lable5
+            // 
+            this.Lable5.AutoSize = true;
+            this.Lable5.Location = new System.Drawing.Point(31, 281);
+            this.Lable5.Name = "Lable5";
+            this.Lable5.Size = new System.Drawing.Size(137, 15);
+            this.Lable5.TabIndex = 63;
+            this.Lable5.Text = "商 品 规 格(宽)：";
+            // 
+            // TBox6
+            // 
+            this.TBox6.Location = new System.Drawing.Point(180, 324);
+            this.TBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TBox6.Name = "TBox6";
+            this.TBox6.Size = new System.Drawing.Size(120, 25);
+            this.TBox6.TabIndex = 66;
+            // 
+            // Lable6
+            // 
+            this.Lable6.AutoSize = true;
+            this.Lable6.Location = new System.Drawing.Point(32, 327);
+            this.Lable6.Name = "Lable6";
+            this.Lable6.Size = new System.Drawing.Size(137, 15);
+            this.Lable6.TabIndex = 65;
+            this.Lable6.Text = "商 品 规 格(高)：";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(66, 489);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(603, 96);
+            this.richTextBox1.TabIndex = 67;
+            this.richTextBox1.Text = "";
+            // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("黑体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(610, 25);
+            this.button1.Location = new System.Drawing.Point(324, 615);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 42);
-            this.button1.TabIndex = 62;
-            this.button1.Text = "查看详情";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "返回";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(202, 334);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(135, 28);
-            this.textBox9.TabIndex = 64;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(35, 337);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 18);
-            this.label12.TabIndex = 63;
-            this.label12.Text = "商 品 规 格(宽)：";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(203, 389);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(135, 28);
-            this.textBox11.TabIndex = 66;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(36, 392);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(161, 18);
-            this.label13.TabIndex = 65;
-            this.label13.Text = "商 品 规 格(高)：";
-            // 
             // Form7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(805, 597);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label12);
+            this.ClientSize = new System.Drawing.Size(716, 650);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.TBox6);
+            this.Controls.Add(this.Lable6);
+            this.Controls.Add(this.TBox5);
+            this.Controls.Add(this.Lable5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.Lable7);
+            this.Controls.Add(this.TBox4);
+            this.Controls.Add(this.Lable4);
+            this.Controls.Add(this.Lable9);
+            this.Controls.Add(this.TBox3);
+            this.Controls.Add(this.Lable3);
+            this.Controls.Add(this.TBox2);
+            this.Controls.Add(this.Lable2);
+            this.Controls.Add(this.TBox8);
+            this.Controls.Add(this.Lable8);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TBox7);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.TBox1);
+            this.Controls.Add(this.Lable0);
+            this.Controls.Add(this.TBox0);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form7";
             this.Text = "Form7";
             this.Load += new System.EventHandler(this.Form7_Load);
@@ -301,28 +306,28 @@
 
         #endregion
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox TBox0;
+        private System.Windows.Forms.Label Lable0;
+        private System.Windows.Forms.TextBox TBox8;
+        private System.Windows.Forms.Label Label1;
+        private System.Windows.Forms.TextBox TBox7;
+        private System.Windows.Forms.Label Lable8;
+        private System.Windows.Forms.TextBox TBox1;
+        private System.Windows.Forms.Label Lable2;
+        private System.Windows.Forms.TextBox TBox2;
+        private System.Windows.Forms.TextBox TBox3;
+        private System.Windows.Forms.Label Lable3;
+        private System.Windows.Forms.Label Lable9;
+        private System.Windows.Forms.TextBox TBox4;
+        private System.Windows.Forms.Label Lable4;
+        private System.Windows.Forms.Label Lable7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox TBox5;
+        private System.Windows.Forms.Label Lable5;
+        private System.Windows.Forms.TextBox TBox6;
+        private System.Windows.Forms.Label Lable6;
+        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label13;
     }
 }

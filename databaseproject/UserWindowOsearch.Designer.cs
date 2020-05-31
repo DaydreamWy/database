@@ -35,6 +35,7 @@
             this.labelTimeStart = new System.Windows.Forms.Label();
             this.textTimeEnd = new System.Windows.Forms.TextBox();
             this.labelTimeEnd = new System.Windows.Forms.Label();
+            this.buttonSeeOrderDetail = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataOrderList)).BeginInit();
             this.SuspendLayout();
@@ -64,7 +65,7 @@
             this.dataOrderList.Location = new System.Drawing.Point(28, 73);
             this.dataOrderList.Name = "dataOrderList";
             this.dataOrderList.RowTemplate.Height = 27;
-            this.dataOrderList.Size = new System.Drawing.Size(536, 300);
+            this.dataOrderList.Size = new System.Drawing.Size(536, 325);
             this.dataOrderList.TabIndex = 13;
             // 
             // textTimeStart
@@ -99,10 +100,21 @@
             this.labelTimeEnd.TabIndex = 21;
             this.labelTimeEnd.Text = "截止时间";
             // 
+            // buttonSeeOrderDetail
+            // 
+            this.buttonSeeOrderDetail.Location = new System.Drawing.Point(457, 414);
+            this.buttonSeeOrderDetail.Name = "buttonSeeOrderDetail";
+            this.buttonSeeOrderDetail.Size = new System.Drawing.Size(107, 43);
+            this.buttonSeeOrderDetail.TabIndex = 23;
+            this.buttonSeeOrderDetail.Text = "查看详情";
+            this.buttonSeeOrderDetail.UseVisualStyleBackColor = true;
+            this.buttonSeeOrderDetail.Click += new System.EventHandler(this.buttonSeeOrderDetail_Click);
+            // 
             // UserWindowOsearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonSeeOrderDetail);
             this.Controls.Add(this.textTimeEnd);
             this.Controls.Add(this.labelTimeEnd);
             this.Controls.Add(this.textTimeStart);
@@ -111,7 +123,7 @@
             this.Controls.Add(this.dataOrderList);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UserWindowOsearch";
-            this.Size = new System.Drawing.Size(600, 400);
+            this.Size = new System.Drawing.Size(600, 469);
             this.Load += new System.EventHandler(this.UserWindowOsearch_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataOrderList)).EndInit();
@@ -128,5 +140,6 @@
         private System.Windows.Forms.Label labelTimeStart;
         private System.Windows.Forms.TextBox textTimeEnd;
         private System.Windows.Forms.Label labelTimeEnd;
+        private System.Windows.Forms.Button buttonSeeOrderDetail;
     }
 }
