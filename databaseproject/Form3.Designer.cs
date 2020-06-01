@@ -49,6 +49,7 @@
             this.UserGroupBox.TabIndex = 7;
             this.UserGroupBox.TabStop = false;
             this.UserGroupBox.Text = "groupContent";
+            this.UserGroupBox.Enter += new System.EventHandler(this.UserGroupBox_Enter);
             // 
             // button2
             // 
@@ -75,7 +76,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label1.Font = new System.Drawing.Font("宋体", 12F);
             this.label1.Location = new System.Drawing.Point(61, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 24);

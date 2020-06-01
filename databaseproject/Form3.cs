@@ -53,5 +53,10 @@ namespace databaseproject
             this.Owner.Show();
             this.Close();
         }
+
+        private void UserGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

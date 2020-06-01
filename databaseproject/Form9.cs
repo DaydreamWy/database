@@ -76,9 +76,10 @@ namespace databaseproject
                 int buy_money = buy_per_price * number;
                 string buy_address = textBox4.Text.Trim();
                 string buy_phone = textBox5.Text.Trim();
+                string nickname = textBox2.Text.Trim();
                 string sql2 = string.Format(
-                    "insert into AllOrder(p_id,u_id,o_num,o_buyTime,o_Money,o_address,o_phoneNumber) values({0},{1},{2},'{3}',{4},'{5}','{6}')"
-                    , this.para_p_id, Form1.LoginUserId, buy_number, buy_time, buy_money,buy_address,buy_phone);//buy_p_id
+                    "insert into AllOrder(p_id,u_id,o_num,o_buyTime,o_Money,o_address,o_phoneNumber,o_nickname) values({0},{1},{2},'{3}',{4},'{5}','{6}','{7}')"
+                    , this.para_p_id, Form1.LoginUserId, buy_number, buy_time, buy_money,buy_address,buy_phone,nickname);//buy_p_id
                 SqlFunc.ExecuteSql(sql2);
 
                 MessageBox.Show("订单已经生成，即将跳转支付页面");
