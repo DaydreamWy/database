@@ -104,7 +104,6 @@ namespace databaseproject
                 p_length = "0";
             }
 
-
             //--------0.上传图片并保存在程序的根目录的某个文件夹中
             //上传图片（模拟上传：复制）
             string[] tempFileNames = new string[picNum];
@@ -113,7 +112,6 @@ namespace databaseproject
             {
                 Directory.CreateDirectory(RoorDir);
             }
-            
             //string test= "";
             for (int i = 0; i < picNum; i++)
             {
@@ -123,6 +121,39 @@ namespace databaseproject
             }
             //MessageBox.Show(test, "test the paths");
 
+            SqlParameter[] sps = new SqlParameter[] {
+                new SqlParameter("@PARA_p_name",SqlDbType.NVarChar),
+                new SqlParameter("@PARA_category",SqlDbType.NVarChar),
+                new SqlParameter("@PARA_price",SqlDbType.NVarChar),
+
+                new SqlParameter("@PARA_p_number",SqlDbType.Int),
+                new SqlParameter("@PARA_p_length",SqlDbType.Int),
+                new SqlParameter("@PARA_p_width",SqlDbType.Int),
+                new SqlParameter("@PARA_p_height",SqlDbType.Int),
+
+                new SqlParameter("@PARA_s_id",SqlDbType.Int),
+
+                new SqlParameter("@PARA_p_id",SqlDbType.Int),
+                new SqlParameter("@output_info",SqlDbType.NVarChar),
+            };
+            sps[0].Value = p_name;
+            sps[1].Value = category;
+            sps[2].Value = price;
+
+            sps[3].Value = p_number;
+            sps[4].Value = int.Parse(p_length);
+            sps[5].Value = int.Parse(p_width);
+            sps[6].Value = int.Parse(p_height);
+            sps[7].Value = s_id;
+
+            sps[8].Direction = ParameterDirection.Output;
+            sps[9].Value = ParameterDirection.Output;
+            //执行存储程序
+            int res = SqlFunc.ExecStoredProcedure("dbo.pro_NEW_Product", sps);
+            p_id = Convert.ToInt32(sps[8].Value);
+            string output_info = Convert.ToString(sps[9].Value);
+            MessageBox.Show(output_info, "输出提示");
+            /*
             //--------1.更新数据库Products
             string sql1 = string.Format(
                 "insert into Products(p_name, category, price, p_number, p_length, p_width, p_height) " +
@@ -130,8 +161,17 @@ namespace databaseproject
                 p_name, category, price, p_number, p_length, p_width, p_height);
 
             p_id = SqlFunc.ExecuteSql(sql1,1);
-            
-            //--------2.更新数据库PP
+
+            //--------2.更新数据库Shelf
+            bool flag2 = true;
+            string sql3 = string.Format("insert into Shelf(p_id,s_id,ifOnshelf) values({0},{1},{2})", p_id, s_id, 0);
+            if (SqlFunc.ExecuteSql(sql3) <= 0)
+            {
+                flag2 = false;
+            }
+            */
+
+            //--------3.更新数据库PP
             bool flag2 = true;
             for (int i = 0; i < picNum; i++)
             {
@@ -143,27 +183,32 @@ namespace databaseproject
                     break;
                 }
             }
-            //--------3.更新数据库Shelf
-            string sql3 = string.Format("insert into Shelf(p_id,s_id,ifOnshelf) values({0},{1},{2})", p_id, s_id, 0);
-            if (SqlFunc.ExecuteSql(sql3) <= 0)
-            {
-                flag2 = false;
-            }
-
             
-
-
-            if (flag2)
+            if (res>0 && flag2)
             {
-                MessageBox.Show("新建成功", "提示");
+                MessageBox.Show("新建成功!", "提示");
             }
             else
             {
-                MessageBox.Show("新建失败", "提示");
+                MessageBox.Show("新建失败...", "提示");
+                SqlParameter[] param2 = new SqlParameter[] {
+                new SqlParameter("@del_pid",SqlDbType.Int),
+                new SqlParameter("@FLAG",SqlDbType.Int)
+                };
+
+                param2[1].Direction = ParameterDirection.Output;
+                int res2 = SqlFunc.ExecStoredProcedure("dbo.pro_NEW_Product", param2);
+                if(res2 > 0)
+                {
+                    MessageBox.Show("删除完成!", "提示");
+                }
+                else
+                {
+                    MessageBox.Show("删除失败!", "提示");
+                }
             }
+
             this.Close();
-            //Form2 parent = (Form2)(this.Owner);
-            //parent.ProductPane.UpdateProductIOList();
             father.UpdateProductIOList();
         }
 

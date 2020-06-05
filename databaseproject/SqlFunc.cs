@@ -74,5 +74,40 @@ namespace databaseproject
             }
 
         }
+        //调用存储过程
+        public static int ExecStoredProcedure(string procName, params SqlParameter[] parameters)
+        {
+            int rtn = 0;
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    SqlTransaction st = conn.BeginTransaction();
+                    cmd.Transaction = st;//使用事务机制
+                    try
+                    {
+                        cmd.CommandText = procName;
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddRange(parameters);
+                        rtn = cmd.ExecuteNonQuery();
+                        st.Commit();
+                        return rtn;
+                    }
+                    catch (SqlException sqlex)
+                    {
+                        st.Rollback();
+                        MessageBox.Show(sqlex.Message, "SQL错误");
+                        throw sqlex;
+                    }
+                    finally
+                    {
+                        cmd.Dispose();
+                        conn.Close();
+                        
+                    }
+                }
+            }
+        }
     }
 }
