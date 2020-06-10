@@ -28,5 +28,10 @@ namespace databaseproject
             textBox6.Text = ds.Tables[0].Rows[0][3].ToString();
             textBox5.Text = ds.Tables[0].Rows[0][4].ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

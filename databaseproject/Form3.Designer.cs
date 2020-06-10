@@ -48,7 +48,6 @@
             this.UserGroupBox.Size = new System.Drawing.Size(675, 624);
             this.UserGroupBox.TabIndex = 7;
             this.UserGroupBox.TabStop = false;
-            this.UserGroupBox.Text = "groupContent";
             // 
             // button2
             // 
@@ -76,11 +75,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label1.Location = new System.Drawing.Point(61, 40);
+            this.label1.Location = new System.Drawing.Point(52, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 24);
+            this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 6;
-            this.label1.Text = "WQL小店";
             // 
             // button1
             // 
@@ -118,7 +116,6 @@
             this.menu.Size = new System.Drawing.Size(225, 624);
             this.menu.TabIndex = 12;
             this.menu.TabStop = false;
-            this.menu.Text = "groupMenu";
             // 
             // Form3
             // 
@@ -131,7 +128,7 @@
             this.Location = new System.Drawing.Point(100, 200);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "用户界面";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UserPicBox)).EndInit();
             this.menu.ResumeLayout(false);

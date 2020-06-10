@@ -90,7 +90,6 @@ D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
-D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources

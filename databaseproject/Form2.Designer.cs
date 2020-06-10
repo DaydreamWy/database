@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.btnProQ = new System.Windows.Forms.Button();
             this.btnOrdQ = new System.Windows.Forms.Button();
             this.btnProIN = new System.Windows.Forms.Button();
@@ -41,22 +40,12 @@
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 12F);
-            this.label1.Location = new System.Drawing.Point(92, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "WQL小店";
-            // 
             // btnProQ
             // 
-            this.btnProQ.Location = new System.Drawing.Point(36, 50);
+            this.btnProQ.Location = new System.Drawing.Point(40, 27);
             this.btnProQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProQ.Name = "btnProQ";
-            this.btnProQ.Size = new System.Drawing.Size(107, 37);
+            this.btnProQ.Size = new System.Drawing.Size(120, 44);
             this.btnProQ.TabIndex = 1;
             this.btnProQ.Text = "商品查询";
             this.btnProQ.UseVisualStyleBackColor = true;
@@ -64,10 +53,10 @@
             // 
             // btnOrdQ
             // 
-            this.btnOrdQ.Location = new System.Drawing.Point(36, 185);
+            this.btnOrdQ.Location = new System.Drawing.Point(40, 155);
             this.btnOrdQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOrdQ.Name = "btnOrdQ";
-            this.btnOrdQ.Size = new System.Drawing.Size(107, 37);
+            this.btnOrdQ.Size = new System.Drawing.Size(120, 44);
             this.btnOrdQ.TabIndex = 2;
             this.btnOrdQ.Text = "订单管理";
             this.btnOrdQ.UseVisualStyleBackColor = true;
@@ -75,10 +64,10 @@
             // 
             // btnProIN
             // 
-            this.btnProIN.Location = new System.Drawing.Point(36, 47);
+            this.btnProIN.Location = new System.Drawing.Point(40, 27);
             this.btnProIN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProIN.Name = "btnProIN";
-            this.btnProIN.Size = new System.Drawing.Size(107, 37);
+            this.btnProIN.Size = new System.Drawing.Size(120, 44);
             this.btnProIN.TabIndex = 4;
             this.btnProIN.Text = "商品入库";
             this.btnProIN.UseVisualStyleBackColor = true;
@@ -86,10 +75,10 @@
             // 
             // btnProSH
             // 
-            this.btnProSH.Location = new System.Drawing.Point(36, 118);
+            this.btnProSH.Location = new System.Drawing.Point(40, 90);
             this.btnProSH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProSH.Name = "btnProSH";
-            this.btnProSH.Size = new System.Drawing.Size(107, 37);
+            this.btnProSH.Size = new System.Drawing.Size(120, 44);
             this.btnProSH.TabIndex = 5;
             this.btnProSH.Text = "商品上/下架";
             this.btnProSH.UseVisualStyleBackColor = true;
@@ -97,10 +86,10 @@
             // 
             // btn_goBack1
             // 
-            this.btn_goBack1.Location = new System.Drawing.Point(36, 116);
+            this.btn_goBack1.Location = new System.Drawing.Point(40, 99);
             this.btn_goBack1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_goBack1.Name = "btn_goBack1";
-            this.btn_goBack1.Size = new System.Drawing.Size(107, 37);
+            this.btn_goBack1.Size = new System.Drawing.Size(120, 44);
             this.btn_goBack1.TabIndex = 6;
             this.btn_goBack1.Text = "退出";
             this.btn_goBack1.UseVisualStyleBackColor = true;
@@ -111,57 +100,57 @@
             this.groupBox1.Controls.Add(this.btnProSH);
             this.groupBox1.Controls.Add(this.btnOrdQ);
             this.groupBox1.Controls.Add(this.btnProIN);
-            this.groupBox1.Location = new System.Drawing.Point(28, 53);
+            this.groupBox1.Location = new System.Drawing.Point(32, 77);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(190, 246);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(214, 216);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btnProQ);
             this.groupBox2.Controls.Add(this.btn_goBack1);
-            this.groupBox2.Location = new System.Drawing.Point(28, 319);
+            this.groupBox2.Location = new System.Drawing.Point(32, 359);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(190, 181);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(214, 163);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // FuncPanl
             // 
-            this.FuncPanl.Location = new System.Drawing.Point(257, 57);
+            this.FuncPanl.Location = new System.Drawing.Point(289, 68);
+            this.FuncPanl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FuncPanl.Name = "FuncPanl";
-            this.FuncPanl.Size = new System.Drawing.Size(668, 472);
+            this.FuncPanl.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FuncPanl.Size = new System.Drawing.Size(752, 566);
             this.FuncPanl.TabIndex = 9;
             this.FuncPanl.TabStop = false;
-            this.FuncPanl.Text = "Func";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(982, 571);
+            this.ClientSize = new System.Drawing.Size(1105, 685);
             this.Controls.Add(this.FuncPanl);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "店铺界面";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnProQ;
         private System.Windows.Forms.Button btnOrdQ;
         private System.Windows.Forms.Button btnProIN;
