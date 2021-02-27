@@ -47,6 +47,16 @@ D:\database\databaseproject\bin\Debug\databaseproject.exe.config
 D:\database\databaseproject\bin\Debug\databaseproject.exe
 D:\database\databaseproject\bin\Debug\databaseproject.pdb
 D:\database\databaseproject\obj\x86\Debug\databaseproject.csprojAssemblyReference.cache
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
@@ -58,6 +68,7 @@ D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resou
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
 D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
+D:\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.FormOnShelf.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resources
 C:\Users\汪洋\Desktop\databaseproject\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
@@ -79,6 +90,7 @@ D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
@@ -92,12 +104,29 @@ D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
 D:\database class project\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.Cache
-D:\database\databaseproject\obj\x86\Debug\databaseproject.Login.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.PayMoney.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.SellerMainForm.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.UserMainForm.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.ProductPutIO.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.ProductNew.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.ProductDetail.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.OrderDetail.resources
-D:\database\databaseproject\obj\x86\Debug\databaseproject.OrderConfirm.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.exe.config
+C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.exe
+C:\Users\DELL\Documents\GitHub\database\databaseproject\bin\Debug\databaseproject.pdb
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form1.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form10.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form2.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form3.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form4.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form5.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form6.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form7.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form8.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Form9.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.OrderManagement.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.PaneProductQuery.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.PaneProduct.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.PaneShelf.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.PaneOrderQuery.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.PaneUserManage.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowOsearch.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.UserWindowPSearch.resources
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.exe
+C:\Users\DELL\Documents\GitHub\database\databaseproject\obj\x86\Debug\databaseproject.pdb
