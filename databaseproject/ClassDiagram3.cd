@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="databaseproject.Login" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAiAAEBAAAAGAAAACAAFYIAAAACQAAgAAAAI=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.OrderManagement" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAACAgMBAAAACAAQCCAERIJAEABEAQAESAAQg=</HashCode>
+      <FileName>Sellers\OrderManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.PaneOrderQuery" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAghABCAAIACAAQAAAoAAAACoAYAAAA=</HashCode>
+      <FileName>Sellers\PaneOrderQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.PaneProduct" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAACAACAAAAiACAAAAIAEAAAAEBCAAA=</HashCode>
+      <FileName>Sellers\PaneProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.PaneProductQuery" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAACIAAEIAAACAAAACAAwAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sellers\PaneProductQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.PaneShelf" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAACAAAACAAAYAAIAAGAAAAAAAAA=</HashCode>
+      <FileName>Sellers\PaneShelf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.ProductNew" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAIhAAACAAARgQAACCUAQKACAAAkEgQAEgCEhAEVE=</HashCode>
+      <FileName>Sellers\ProductNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.ProductPutIO" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAACAAIBAAAACAAACCAAAYAAEAEGAAAAAAAAA=</HashCode>
+      <FileName>Sellers\ProductPutIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.SellerMainForm" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAIYIACIAAAAAAQDQAACCQQEAAAAAADgAABAAAAg=</HashCode>
+      <FileName>Sellers\SellerMainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.SqlFunc">
+    <Position X="5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAQAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.LoginUser">
+    <Position X="5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.OrderConfirm" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAASAAAFAAAACAAABCIAAYAAAAEGAAACAAAAA=</HashCode>
+      <FileName>Users\OrderConfirm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.OrderDetail" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAACAgABAAAACAAAACAABIIAAABEASAADQgAg=</HashCode>
+      <FileName>Users\OrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.UserWindowOsearch" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACCIEAAAiAAACEAAgCAAQADAAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Users\PaneUserOsearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.UserWindowPSearch" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIQCIAABEAAACACAECICAAAAUAAAAAAAAAEAA=</HashCode>
+      <FileName>Users\PaneUserPSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.PayMoney" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEAAAADAAAA=</HashCode>
+      <FileName>Users\PayMoney.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.ProductDetail" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAhAAECABARgAAACAAAQCQAAIAAAAAEAQAAhAABA=</HashCode>
+      <FileName>Users\ProductDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="databaseproject.UserMainForm" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQBCAAAJAAAACQAAgCAIAYAAAEAiABAAAAAAA=</HashCode>
+      <FileName>Users\UserMainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -25,6 +25,7 @@ namespace databaseproject
             InitializeComponent();
             InitializeInfo();
         }
+
         //重置信息
         public void InitializeInfo()
         {

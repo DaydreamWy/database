@@ -85,10 +85,10 @@
     <Compile Include="Sellers\ProductNew.Designer.cs">
       <DependentUpon>ProductNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sellers\ProductDetail.cs">
+    <Compile Include="Users\ProductDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sellers\ProductDetail.Designer.cs">
+    <Compile Include="Users\ProductDetail.Designer.cs">
       <DependentUpon>ProductDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="Users\OrderDetail.cs">
@@ -166,7 +166,7 @@
     <EmbeddedResource Include="Sellers\ProductNew.resx">
       <DependentUpon>ProductNew.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sellers\ProductDetail.resx">
+    <EmbeddedResource Include="Users\ProductDetail.resx">
       <DependentUpon>ProductDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\OrderDetail.resx">
@@ -208,6 +208,9 @@
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

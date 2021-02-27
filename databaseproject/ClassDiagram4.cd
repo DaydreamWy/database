@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="databaseproject.Login">
-    <Position X="8.5" Y="4.75" Width="2" />
+    <Position X="8.25" Y="4.5" Width="2" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="button2" Hidden="true" />
@@ -30,7 +30,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.OrderManagement">
-    <Position X="3.25" Y="10.25" Width="2.25" />
+    <Position X="11.25" Y="16.75" Width="2.25" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="components" Hidden="true" />
@@ -66,7 +66,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.PaneOrderQuery">
-    <Position X="3.25" Y="5.5" Width="2.25" />
+    <Position X="4" Y="12.5" Width="2.25" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
@@ -77,7 +77,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.PaneProduct">
-    <Position X="11" Y="8.5" Width="2.25" />
+    <Position X="11.25" Y="12.5" Width="2.25" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
@@ -88,7 +88,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.PaneProductQuery">
-    <Position X="7.5" Y="13.75" Width="2.5" />
+    <Position X="7.75" Y="17.75" Width="2.5" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
@@ -100,7 +100,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.PaneShelf">
-    <Position X="3.25" Y="13.75" Width="2.25" />
+    <Position X="4" Y="17.75" Width="2.25" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
@@ -111,7 +111,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.ProductDetail">
-    <Position X="11" Y="12.5" Width="2.25" />
+    <Position X="14.5" Y="15.75" Width="2.25" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="components" Hidden="true" />
@@ -145,7 +145,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.ProductNew">
-    <Position X="14.25" Y="12.25" Width="2.25" />
+    <Position X="14.5" Y="18.5" Width="2.25" />
     <Members>
       <Field Name="CancelBtn" Hidden="true" />
       <Field Name="comboBox1" Hidden="true" />
@@ -188,7 +188,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.ProductPutIO">
-    <Position X="14.25" Y="8.5" Width="2.25" />
+    <Position X="14.5" Y="12.5" Width="2.25" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="button2" Hidden="true" />
@@ -206,7 +206,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.SellerMainForm">
-    <Position X="7.5" Y="8.5" Width="2.5" />
+    <Position X="7.75" Y="12.5" Width="2.5" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Field Name="groupBox1" Hidden="true" />
@@ -219,21 +219,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.SqlFunc">
-    <Position X="6" Y="6" Width="1.75" />
+    <Position X="5.75" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAQAAAAA=</HashCode>
       <FileName>Support.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.LoginUser">
-    <Position X="6" Y="4" Width="1.75" />
+    <Position X="11" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>ACAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Support.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.OrderConfirm">
-    <Position X="14.5" Y="1" Width="2" />
+    <Position X="20.25" Y="2.5" Width="2.5" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="button2" Hidden="true" />
@@ -258,7 +258,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.OrderDetail">
-    <Position X="8.5" Y="1" Width="2" />
+    <Position X="17" Y="2.25" Width="2.5" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="components" Hidden="true" />
@@ -287,7 +287,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.UserWindowOsearch">
-    <Position X="11.25" Y="1" Width="2.5" />
+    <Position X="20.25" Y="5.5" Width="2.5" />
     <Members>
       <Field Name="components" Hidden="true" />
       <Field Name="dataGridView1" Hidden="true" />
@@ -304,7 +304,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.UserWindowPSearch">
-    <Position X="14.5" Y="4.5" Width="2.5" />
+    <Position X="14" Y="5.5" Width="2.5" />
     <Members>
       <Field Name="CategoryLabel2" Hidden="true" />
       <Field Name="components" Hidden="true" />
@@ -320,7 +320,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.PayMoney">
-    <Position X="6" Y="1" Width="1.75" />
+    <Position X="14" Y="2.5" Width="2.5" />
     <Members>
       <Method Name="Dispose" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
@@ -331,7 +331,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="databaseproject.UserMainForm">
-    <Position X="11.25" Y="4.5" Width="2.5" />
+    <Position X="17" Y="5.5" Width="2.5" />
     <Members>
       <Field Name="button1" Hidden="true" />
       <Field Name="button2" Hidden="true" />
